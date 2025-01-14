@@ -1,4 +1,4 @@
-# Fizz Buzz (with homebrew test runner)
+# Fizz Buzz (with DIY test runner)
 
 FizzBuzz, but we're building the test runner from scratch as we go
 
