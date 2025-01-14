@@ -1,4 +1,6 @@
-# Fizz Buzz (homebrew test runner)
+# Fizz Buzz (with homebrew test runner)
+
+FizzBuzz, but we're building the test runner from scratch as we go
 
 ## Prerequisites
 
