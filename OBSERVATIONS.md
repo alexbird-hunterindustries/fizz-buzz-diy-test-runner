@@ -37,6 +37,7 @@
 2. ✅ Clear test names
 3. ✅ A pass/fail summary at the end
 4. ✅ Pretty output
-     - colors
-     - objects/arrays displayed nicely
+     - ✅ colors
+     - ✅ objects/arrays displayed nicely
 5. ✅ Test discovery (run tests across multiple files without listing them)
+6. Diffs in our output
