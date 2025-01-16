@@ -1,6 +1,3 @@
-#!/usr/bin/env node
-
-import './diyUnit.mjs';
 import { toFizzBuzzString } from './toFizzBuzzString.mjs';
 
 /*
