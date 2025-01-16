@@ -11,7 +11,18 @@ principles to de-mystify "magical black box" tools.
 
 
 ## Dev Notes
+
 ### Prerequisites
 
 - Node >= 22
 - that's it -- there's no npm dependencies here
+
+### Running
+
+Run the solution with:
+
+    node ./main.mjs
+
+Run the unit tests with:
+
+    ./test.mjs
