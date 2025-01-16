@@ -26,3 +26,9 @@ Run the solution with:
 Run the unit tests with:
 
     ./test.mjs
+
+## Screenshots
+
+![tests passing](./doc/example-success.jpg)
+
+![tests failing](./doc/example-failure.jpg)
