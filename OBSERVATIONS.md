@@ -23,4 +23,4 @@
 2. ✅ Clear test names
 3. ✅ A pass/fail summary at the end
 4. ✅ Pretty output (colors, etc.)
-5. Test discovery (run tests across multiple files without listing them)
+5. ✅ Test discovery (run tests across multiple files without listing them)
