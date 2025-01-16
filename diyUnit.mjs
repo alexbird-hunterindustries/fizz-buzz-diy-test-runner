@@ -10,7 +10,7 @@ global.describe = (describeName, describeBody) => {
     global.expect = (actual) => {
       return {
         toEqual: (expected) => {
-          const pass = actual === expected;
+          const pass = JSON.stringify(actual) === JSON.stringify(expected);
           const prettyToString = x => JSON.stringify(x, null, 2);
           const prettyExpected  = prettyToString(expected);
           const prettyActual = prettyToString(actual);
