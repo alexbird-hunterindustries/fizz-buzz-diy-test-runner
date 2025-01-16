@@ -22,8 +22,12 @@ global.describe = (describeName, describeBody) => {
     testBody();
   }
   describeBody();
-  printResults();
 }
+
+// From a web search for "Node run before exit"
+process.on('exit', () => {
+  printResults();
+});
 
 function printResults() {
   const everyTest = Object.entries(testResults).map(([name, result]) => ({ name, result }));
