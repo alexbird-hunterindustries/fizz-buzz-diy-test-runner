@@ -21,6 +21,11 @@
   failing) so you can get more detailed feedback
 - Small units (with test doubles) let me think about fewer things at a time
 - If you haven't seen your test fail, how do you know you're testing anything?
+- When you're using test doubles, you'll need either an end to end test or a
+  manual spot check to make sure that you've called your factory methods with
+  the right stuff and it all works
+   - from experience and anecdotes from others, it's easy to forget that last
+     step of plugging the pieces together
 
 ## What do we look for in a test runner?
 
