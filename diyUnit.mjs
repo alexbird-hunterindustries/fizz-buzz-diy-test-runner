@@ -11,10 +11,14 @@ global.describe = (describeName, describeBody) => {
       return {
         toEqual: (expected) => {
           const pass = actual === expected;
-          testResults[fullName] = {
-            pass,
-            message: `expected ${expected}, got ${actual}`
-          };
+          const prettyToString = x => JSON.stringify(x, null, 2);
+          const prettyExpected  = prettyToString(expected);
+          const prettyActual = prettyToString(actual);
+          const multilineValues = (prettyExpected + prettyActual).includes('\n');
+          const message = multilineValues
+            ? `expected:\n${indent(prettyExpected)}\nactual:\n${indent(prettyActual)}`
+            : `expected ${prettyExpected}, got ${prettyActual}`;
+          testResults[fullName] = { pass, message };
         }
       }
     }
@@ -36,7 +40,8 @@ function printResults() {
     const statusColor = test.result.pass ? color.green : color.red;
     console.log(statusColor(`${icon} ${test.name}`));
     if (!test.result.pass) {
-      console.error('    ' + color.red(test.result.message) + '\n');
+      console.error(color.red(indent(test.result.message, 2)));
+      console.log(''); // blank line
     }
   });
   
@@ -55,3 +60,5 @@ const color = {
   red: text => `\x1b[31m${text}\x1b[0m`,
   green: text => `\x1b[32m${text}\x1b[0m`,
 }
+
+const indent = (text, amount = 1) => text.split('\n').map(x => '  '.repeat(amount) + x).join('\n');
