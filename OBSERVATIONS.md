@@ -19,6 +19,7 @@
 ### About TDD
 - It is often easier to refactor tests while they are failing (or partially
   failing) so you can get more detailed feedback
+- Small units (with test doubles) let me think about fewer things at a time
 
 ## What do we look for in a test runner?
 
@@ -28,6 +29,7 @@
 2. ✅ (sometimes) parameterized testing to run many similar tests
 3. ✅ Clear test names
 4. ✅ Familiar structure
+5. Mocking / test doubles
 
 ### Running Tests
 
