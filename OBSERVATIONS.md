@@ -20,6 +20,7 @@
 - It is often easier to refactor tests while they are failing (or partially
   failing) so you can get more detailed feedback
 - Small units (with test doubles) let me think about fewer things at a time
+- If you haven't seen your test fail, how do you know you're testing anything?
 
 ## What do we look for in a test runner?
 
