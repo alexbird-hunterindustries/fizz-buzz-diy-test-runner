@@ -1,3 +1,6 @@
-export function fizzBuzz(count) {
-  console.log('todo');
+
+export function buildFizzBuzz({ consoleLog, toFizzBuzzString }) {
+  return function fizzBuzz(count) {
+    consoleLog('todo')
+  }
 }
