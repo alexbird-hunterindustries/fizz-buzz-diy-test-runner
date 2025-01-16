@@ -41,4 +41,4 @@
      - ✅ colors
      - ✅ objects/arrays displayed nicely
 5. ✅ Test discovery (run tests across multiple files without listing them)
-6. Diffs in our output
+6. ❌ Diffs in our output
