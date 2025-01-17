@@ -6,7 +6,7 @@ Which of the following statements best fits your current approach to dev
 tooling?
 
 1. Somebody else sets up the development environment and chooses the tools. I
-   write code in the provided environment.
+   write the code in the provided environment.
 2. I choose or build the tools I need to do my job. When they don't suit my
    needs, I change them.
 
