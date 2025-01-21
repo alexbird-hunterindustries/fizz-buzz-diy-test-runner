@@ -13,3 +13,10 @@
     - up to 100 is more output than I want to do in a single test
 - get the "FizzBuzz string" for a given number
     - this seems easy to test: number in, string out
+
+## Plan
+
+1. TDD a function `toFizzBuzzString` for all the interesting numbers
+2. TDD a function `fizzBuzzLoop`, but use a test double for `toFizzBuzzString` and `console.log`
+3. Write (and manually test) an executable file `fizzBuzz` that runs `fizzBuzzLoop`
+    - This will use the real `toFizzBuzzString` and `console.log`
