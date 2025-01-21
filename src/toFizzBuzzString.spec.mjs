@@ -9,12 +9,17 @@
 import { toFizzBuzzString } from "./toFizzBuzzString.mjs";
 import { expect } from "./diyUnit.mjs";
 
-[
+describe('toFizzBuzzString', () => {
+
+  [
     { input: 1, output: 1 },
     { input: 2, output: 2 },
     { input: 3, output: "Fizz" },
     { input: 4, output: 4 },
     { input: 5, output: "Buzz" },
-].forEach(({ input, output }) => {
-    expect(toFizzBuzzString(input)).toEqual(output);
+  ].forEach(({ input, output }) => {
+    it(`converts ${input} to ${output}`, () => {
+      expect(toFizzBuzzString(input)).toEqual(output);
+    })
+  })
 })
