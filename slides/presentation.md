@@ -29,6 +29,18 @@ alex&ZeroWidthSpace;**@alexanderbird**.software
 
 ---
 
+![bg right 90%](./alexbird.jpg)
+
+# About Me
+
+I'm learning about how to **transmit mental models** to others.
+
+My current focus is on how to efficiently **make others more effective**.
+
+So I end up thinking a lot about how we learn and teach.
+
+---
+
 # Taboo
 
 Give clues to get your team to say **"Dolphin"**, but you can't say any of these words.
@@ -62,8 +74,13 @@ But **if we cannot explain ourselves without jargon**, we **don't understand** w
 I'm going to share a **learning strategy** that I have found helpful for myself and others to **get out of the
 Jargon Trap**; to learn enough to **pass the "Taboo Test"**.
 
-We're going to use unit test frameworks as an **example of this learning approach**
-.
+---
+
+# Learning Algorithm
+
+#### What if we didn't have X?
+
+We're going to use unit test frameworks as an **example of this learning approach**.
 
 ---
 
@@ -80,15 +97,14 @@ If you genuinely don't know, even better.
 - Software dev is a **learning profession**.
 - When you're a **faster learner**, you **do better**
 - This talk is **an exercise in learning**
-- So even if you are a testing expert: pretend with me that you don't have a intuitive understanding of what is a test
-  framework
-    - Because I'm sure you still have to learn *something* in your career
-    - And **this exercise may help you become a better learner**
-    - (or a better teacher)
+- So even if you are a testing expert: pretend with me that you aren't
+    - You still have to learn *something* in your career
+    - And **this exercise** may **help you become a better learner**
+    - (or a **better teacher**)
 
 ---
 
-# What Even Is a Test Framework?
+# Pretend We're In The Jargon Trap
 
 - You use a test frameworks, but **it's still magic to you**.
 - Someone else set it up
@@ -107,10 +123,6 @@ You start by doing a web search -- let's learn more about test frameworks
 ---
 
 ![width:1100px](./jest.png)
-
----
-
-![width:1100px](./xunit.png)
 
 ---
 
@@ -241,7 +253,7 @@ By the end, we'll have **solved FizzBuzz** and we'll have about **~100 lines of 
 
 # Exercise
 
-We'll use **Node.js** with no **dependencies** and aim for Jest/Jasmine style syntax
+We'll use **Node.js** with **no dependencies** and aim for Jest/Jasmine style syntax
 
 ```typescript
 describe('FizzBuzz', () => {
