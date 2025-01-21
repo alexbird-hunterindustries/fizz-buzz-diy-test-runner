@@ -12,11 +12,11 @@ breaks: 'off'
 
 Escaping the Jargon Trap
 
-![bg right 90%](./deer-on-deck.jpg)
+![bg right 90%](deer-on-deck.jpg)
 
 ---
 
-![bg right 90%](./alexbird.jpg)
+![bg right 90%](alexbird.jpg)
 
 # About Me
 
@@ -29,7 +29,7 @@ alex&ZeroWidthSpace;**@alexanderbird**.software
 
 ---
 
-![bg right 90%](./alexbird.jpg)
+![bg right 90%](alexbird.jpg)
 
 # About Me
 
@@ -45,7 +45,7 @@ So I end up thinking a lot about how we learn and teach.
 
 Give clues to get your team to say **"Dolphin"**, but you can't say any of these words.
 
-![bg right 90%](./taboo.jpg)
+![bg right 90%](taboo.jpg)
 
 ---
 
@@ -53,7 +53,7 @@ Give clues to get your team to say **"Dolphin"**, but you can't say any of these
 
 You can pass the "Taboo Test" if you can **explain a concept** without **jargon**.
 
-![bg right 90%](./taboo.jpg)
+![bg right 90%](taboo.jpg)
 
 ---
 
@@ -63,7 +63,7 @@ For our day-to-day work, **jargon speeds communication**.
 
 But **if we cannot explain ourselves without jargon**, we **don't understand** what we're talking about.
 
-![bg right 90%](./taboo.jpg)
+![bg right 90%](taboo.jpg)
 
 ---
 
@@ -122,19 +122,19 @@ You start by doing a web search -- let's learn more about test frameworks
 
 ---
 
-![width:1100px](./jest.png)
+![width:1100px](jest.png)
 
 ---
 
-![width:1100px](./junit.png)
+![width:1100px](junit.png)
 
 ---
 
-![width:1100px](./playwright.png)
+![width:1100px](playwright.png)
 
 ---
 
-![width:1100px](./jasmine.jpg)
+![width:1100px](jasmine.jpg)
 
 ---
 
@@ -181,7 +181,7 @@ Take 1 minute; Write down your definition (you'll need it at the end)
 
 Let's answer this question together!
 
-![bg right 90%](./deer-on-deck.jpg)
+![bg right 90%](deer-on-deck.jpg)
 
 ---
 
@@ -189,7 +189,7 @@ Let's answer this question together!
 
 If we didn't have X, what would we do instead?
 
-![bg left 100%](./standing-deer.jpg)
+![bg left 100%](standing-deer.jpg)
 
 ---
 
@@ -199,7 +199,7 @@ If we didn't have **our test framework**, what would we do instead?
 
 Once we answer this, we'll be **able to pass the "Taboo Test"**.
 
-![bg left 100%](./standing-deer.jpg)
+![bg left 100%](standing-deer.jpg)
 
 ---
 
@@ -207,7 +207,7 @@ Once we answer this, we'll be **able to pass the "Taboo Test"**.
 
 Discover the essence of a **test framework** by building one from scratch.
 
-![bg right 100%](./snow-fort.jpg)
+![bg right 100%](snow-fort.jpg)
 
 ---
 
@@ -272,4 +272,4 @@ describe('FizzBuzz', () => {
 
 Let's go!!
 
-![bg right 90%](./sledding.png)
+![bg right 90%](sledding.png)
