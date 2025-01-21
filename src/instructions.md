@@ -9,4 +9,7 @@
 ## Approach
 
 - loop from 1 to 100 and print the "FizzBuzz" string
+    - "print" means input/output -- more complicated to test
+    - up to 100 is more output than I want to do in a single test
 - get the "FizzBuzz string" for a given number
+    - this seems easy to test: number in, string out
