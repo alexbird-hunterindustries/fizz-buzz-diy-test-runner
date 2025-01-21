@@ -8,9 +8,7 @@
 
 import { toFizzBuzzString } from "./toFizzBuzzString.mjs";
 
-const actual = toFizzBuzzString(1);
-const expected = 1;
-expect(actual).toEqual(expected);
+expect(toFizzBuzzString(1)).toEqual(1);
 
 function expect(actual) {
     return {
