@@ -10,9 +10,16 @@ import { toFizzBuzzString } from "./toFizzBuzzString.mjs";
 
 const actual = toFizzBuzzString(1);
 const expected = 1;
+expect(actual).toEqual(expected);
 
-console.log({
-  result: actual === expected ? "✅ PASS" : "❌ FAIL",
-  expected,
-  actual,
-});
+function expect(actual) {
+  return {
+    toEqual: expected => {
+      console.log({
+        result: actual === expected ? "✅ PASS" : "❌ FAIL",
+        expected,
+        actual,
+      });
+    },
+  };
+}
