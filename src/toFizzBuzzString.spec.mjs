@@ -8,4 +8,4 @@
 
 import { toFizzBuzzString } from "./toFizzBuzzString.mjs";
 
-console.log(toFizzBuzzString(1));
+console.log({ expected: 1, actual: toFizzBuzzString(1) });
