@@ -4,13 +4,13 @@ _class: lead
 paginate: true
 backgroundColor: #fff
 backgroundImage: url('https://marp.app/assets/hero-background.svg')
-footer: The "Taboo Test" | What Even Is A Test Framework? | Alex Bird | alex@alexanderbird.software
+footer: The "Jargon Trap" | What Even Is A Test Framework? | Alex Bird | alex@alexanderbird.software
 breaks: 'off'
 ---
 
-# What Even Is A Test Framework?
+## What Even Is A Test Framework?
 
-The "Taboo Test" Learning Algorithm
+Escaping the Jargon Trap
 
 ![bg right 90%](./deer-on-deck.jpg)
 
@@ -20,7 +20,7 @@ The "Taboo Test" Learning Algorithm
 
 # About Me
 
-I **write software** in an ensemble for Hunter Industries.
+I **write software** in an ensemble (mob) for Hunter Industries.
 
 My job is primarily **coaching**, but I do it by **coding with others**.
 
@@ -45,13 +45,25 @@ You can pass the "Taboo Test" if you can **explain a concept** without **jargon*
 
 ---
 
-## The "Taboo Test"
+## The "Jargon Trap"
 
-For our day-to-day work, jargon speeds communication.
+For our day-to-day work, **jargon speeds communication**.
 
-But we cannot explain ourselves without jargon, we don't understand what we're talking about.
+But **if we cannot explain ourselves without jargon**, we **don't understand** what we're talking about.
 
 ![bg right 90%](./taboo.jpg)
+
+---
+
+# Learning Algorithm
+
+#### What if we didn't have X?
+
+I'm going to share a **learning strategy** that I have found helpful for myself and others to **get out of the
+Jargon Trap**; to learn enough to **pass the "Taboo Test"**.
+
+We're going to use unit test frameworks as an **example of this learning approach**
+.
 
 ---
 
@@ -66,42 +78,39 @@ If you genuinely don't know, even better.
 # Sidebar: Why Are We Pretending?
 
 - Software dev is a **learning profession**.
-- When you're a **faster learner**, you're **more senior**
+- When you're a **faster learner**, you **do better**
 - This talk is **an exercise in learning**
 - So even if you are a testing expert: pretend with me that you don't have a intuitive understanding of what is a test
   framework
     - Because I'm sure you still have to learn *something* in your career
     - And **this exercise may help you become a better learner**
+    - (or a better teacher)
 
 ---
 
 # What Even Is a Test Framework?
 
-**Pretend** with me for a moment that you do not know **what is a test framework**.
-
-You used test frameworks, but they're still magic to you.
-
----
-
-# Survey the field
-
-You've just joined a team, and on your first day your onboarding buddy says
-
-> We use xUnit for unit testing
-
-So you do a web search
+- You use a test frameworks, but **it's still magic to you**.
+- Someone else set it up
+    - (so if the tests can't run at all, you'll need help)
+- When you write tests, you
+    1. Find another test in the codebase
+    2. Copy + paste it
+    3. Modify it
 
 ---
 
-![width:1100px](./xunit.png)
+# Escaping the Jargon Trap
 
----
-
-Let's check some other testing tools
+You start by doing a web search -- let's learn more about test frameworks
 
 ---
 
 ![width:1100px](./jest.png)
+
+---
+
+![width:1100px](./xunit.png)
 
 ---
 
@@ -119,7 +128,7 @@ Let's check some other testing tools
 
 # Wikipedia
 
-## Test Automation Framework
+#### Test Automation Framework
 
 - "Is an **integrated system**"
 - "Sets the **rules of automation** of a specified product"
@@ -158,7 +167,7 @@ Take 1 minute; Write down your definition (you'll need it at the end)
 
 # Time's Up
 
-Let's answer this question together
+Let's answer this question together!
 
 ![bg right 90%](./deer-on-deck.jpg)
 
@@ -168,19 +177,25 @@ Let's answer this question together
 
 If we didn't have X, what would we do instead?
 
+![bg left 100%](./standing-deer.jpg)
+
 ---
 
 # Learning Prompt
 
 If we didn't have **our test framework**, what would we do instead?
 
-Once we answer this, we'll pass the "Taboo Test".
+Once we answer this, we'll be **able to pass the "Taboo Test"**.
+
+![bg left 100%](./standing-deer.jpg)
 
 ---
 
 # Exercise
 
 Discover the essence of a **test framework** by building one from scratch.
+
+![bg right 100%](./snow-fort.jpg)
 
 ---
 
@@ -189,6 +204,22 @@ Discover the essence of a **test framework** by building one from scratch.
 We're going to be coding **FizzBuzz** together, and we'll be **creating a test framework** as we go.
 
 We'll practice Test Driven Development using our homemade test framework.
+
+---
+
+# Aside: FizzBuzz
+
+FizzBuzz is a popular coding exercise.
+
+You print out a sequence of numbers, but for some numbers you print out something else
+
+```
+1
+2
+Fizz
+4
+...
+```
 
 ---
 
