@@ -2,6 +2,7 @@
 
 ## What's good about our current approach?
 
+- we can define a set of examples for how our code should behave
 - it exercises our code
 - tells us if our code is behaving correctly
 - keeps test plumbing and test examples separate
