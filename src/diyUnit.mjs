@@ -1,4 +1,7 @@
-export function expect(actual) {
+global.describe = (name, describeBlock) => {
+};
+
+function expect(actual) {
   return {
     toEqual: expected => {
       console.log({
