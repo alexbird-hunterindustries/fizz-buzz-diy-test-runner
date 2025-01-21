@@ -6,3 +6,5 @@
 - tells us if the code is correct
 
 ## What's missing from our current approach?
+
+- separates the test plumbing from the code examples
