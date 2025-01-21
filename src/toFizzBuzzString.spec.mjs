@@ -13,4 +13,5 @@ expect(toFizzBuzzString(1)).toEqual(1);
 expect(toFizzBuzzString(2)).toEqual(2);
 expect(toFizzBuzzString(3)).toEqual("Fizz");
 expect(toFizzBuzzString(4)).toEqual(4);
+expect(toFizzBuzzString(5)).toEqual("Buzz");
 
