@@ -2,8 +2,8 @@
 
 ## What's good about our current approach?
 
-- it exercises our code
-- tells us if the code is correct
+- we can define a set of examples for our code
+- it tells us if the code matches the examples
 - separates the test plumbing from the code examples
 - supports parameterized tests
     - (which is helpful for simple functions that map input to output)
