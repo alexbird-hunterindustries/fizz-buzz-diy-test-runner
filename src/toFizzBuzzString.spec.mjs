@@ -8,4 +8,11 @@
 
 import { toFizzBuzzString } from "./toFizzBuzzString.mjs";
 
-console.log({ expected: 1, actual: toFizzBuzzString(1) });
+const actual = toFizzBuzzString(1);
+const expected = 1;
+
+console.log({
+  result: actual === expected ? "✅ PASS" : "❌ FAIL",
+  expected,
+  actual,
+});
