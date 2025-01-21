@@ -1,3 +1,3 @@
-export function toFizzBuzzString() {
-    return 1;
+export function toFizzBuzzString(number) {
+    return number;
 }
