@@ -10,3 +10,4 @@ import { toFizzBuzzString } from "./toFizzBuzzString.mjs";
 import { expect } from "./diyUnit.mjs";
 
 expect(toFizzBuzzString(1)).toEqual(1);
+expect(toFizzBuzzString(2)).toEqual(2);
