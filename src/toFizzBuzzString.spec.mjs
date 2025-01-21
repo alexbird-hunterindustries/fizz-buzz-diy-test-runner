@@ -5,3 +5,5 @@
  *   - If it is divisible by 5, return "Buzz" instead
  *   - If it is divisible by 3 and 5, return "FizzBuzz" instead
  */
+
+console.log(toFizzBuzzString(1));
