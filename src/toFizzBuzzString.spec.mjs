@@ -7,16 +7,22 @@
  */
 
 import { toFizzBuzzString } from "./toFizzBuzzString.mjs";
-import { expect } from "./diyUnit.mjs";
+import "./diyUnit.mjs";
 
-[
-  { input: 1, output: 1 },
-  { input: 2, output: 2 },
-  { input: 3, output: "Fizz" },
-  { input: 4, output: 4 },
-  { input: 5, output: "Buzz" },
-].forEach(({ input, output }) => {
+describe("toFizzBuzzString", () => {
 
-  const actual = toFizzBuzzString(input);
-  expect(actual).toEqual(output);
+  [
+    { input: 1, output: 1 },
+    { input: 2, output: 2 },
+    { input: 3, output: "Fizz" },
+    { input: 4, output: 4 },
+    { input: 5, output: "Buzz" },
+  ].forEach(({ input, output }) => {
+
+    it(`converts ${input} to ${output}`, () => {
+      const actual = toFizzBuzzString(input);
+      expect(actual).toEqual(output);
+    });
+
+  });
 });
