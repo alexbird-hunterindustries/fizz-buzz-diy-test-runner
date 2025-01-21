@@ -7,7 +7,7 @@
  */
 
 import { toFizzBuzzString } from "./toFizzBuzzString.mjs";
-import { expect } from "./diyUnit.mjs";
+import "./diyUnit.mjs";
 
 describe('toFizzBuzzString', () => {
 
