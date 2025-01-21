@@ -12,11 +12,11 @@ breaks: 'off'
 
 Escaping the Jargon Trap
 
-![bg right 90%](deer-on-deck.jpg)
+![bg right 90%](./images/deer-on-deck.jpg)
 
 ---
 
-![bg right 90%](alexbird.jpg)
+![bg right 90%](./images/alexbird.jpg)
 
 # About Me
 
@@ -29,7 +29,7 @@ alex&ZeroWidthSpace;**@alexanderbird**.software
 
 ---
 
-![bg right 90%](alexbird.jpg)
+![bg right 90%](./images/alexbird.jpg)
 
 # About Me
 
@@ -45,7 +45,7 @@ So I end up thinking a lot about how we learn and teach.
 
 Give clues to get your team to say **"Dolphin"**, but you can't say any of these words.
 
-![bg right 90%](taboo.jpg)
+![bg right 90%](./images/taboo.jpg)
 
 ---
 
@@ -53,7 +53,7 @@ Give clues to get your team to say **"Dolphin"**, but you can't say any of these
 
 You can pass the "Taboo Test" if you can **explain a concept** without **jargon**.
 
-![bg right 90%](taboo.jpg)
+![bg right 90%](./images/taboo.jpg)
 
 ---
 
@@ -63,7 +63,7 @@ For our day-to-day work, **jargon speeds communication**.
 
 But **if we cannot explain ourselves without jargon**, we **don't understand** what we're talking about.
 
-![bg right 90%](taboo.jpg)
+![bg right 90%](./images/taboo.jpg)
 
 ---
 
@@ -74,6 +74,8 @@ But **if we cannot explain ourselves without jargon**, we **don't understand** w
 I'm going to share a **learning strategy** that I have found helpful for myself and others to **get out of the
 Jargon Trap**; to learn enough to **pass the "Taboo Test"**.
 
+![bg right 100%](./images/standing-deer.jpg)
+
 ---
 
 # Learning Algorithm
@@ -81,6 +83,8 @@ Jargon Trap**; to learn enough to **pass the "Taboo Test"**.
 #### What if we didn't have X?
 
 We're going to use unit test frameworks as an **example of this learning approach**.
+
+![bg right 100%](./images/standing-deer.jpg)
 
 ---
 
@@ -111,30 +115,30 @@ If you genuinely don't know, even better.
     - (so if the tests can't run at all, you'll need help)
 - When you write tests, you
     1. Find another test in the codebase
-    2. Copy + paste it
+    2. **Copy + paste** it
     3. Modify it
 
 ---
 
 # Escaping the Jargon Trap
 
-You start by doing a web search -- let's learn more about test frameworks
+You start by doing a web search: let's learn more about test frameworks
 
 ---
 
-![width:1100px](jest.png)
+![width:1100px](./images/jest.png)
 
 ---
 
-![width:1100px](junit.png)
+![width:1100px](./images/junit.png)
 
 ---
 
-![width:1100px](playwright.png)
+![width:1100px](./images/playwright.png)
 
 ---
 
-![width:1100px](jasmine.jpg)
+![width:1100px](./images/jasmine.jpg)
 
 ---
 
@@ -181,7 +185,7 @@ Take 1 minute; Write down your definition (you'll need it at the end)
 
 Let's answer this question together!
 
-![bg right 90%](deer-on-deck.jpg)
+![bg right 90%](./images/deer-on-deck.jpg)
 
 ---
 
@@ -189,7 +193,7 @@ Let's answer this question together!
 
 If we didn't have X, what would we do instead?
 
-![bg left 100%](standing-deer.jpg)
+![bg left 100%](./images/standing-deer.jpg)
 
 ---
 
@@ -199,7 +203,7 @@ If we didn't have **our test framework**, what would we do instead?
 
 Once we answer this, we'll be **able to pass the "Taboo Test"**.
 
-![bg left 100%](standing-deer.jpg)
+![bg left 100%](./images/standing-deer.jpg)
 
 ---
 
@@ -207,7 +211,7 @@ Once we answer this, we'll be **able to pass the "Taboo Test"**.
 
 Discover the essence of a **test framework** by building one from scratch.
 
-![bg right 100%](snow-fort.jpg)
+![bg right 100%](./images/snow-fort.jpg)
 
 ---
 
@@ -223,7 +227,7 @@ We'll practice Test Driven Development using our homemade test framework.
 
 FizzBuzz is a popular coding exercise.
 
-You print out a sequence of numbers, but for some numbers you print out something else
+You print out a sequence of numbers, but for some numbers you print out something else.
 
 ```
 1
@@ -253,7 +257,7 @@ By the end, we'll have **solved FizzBuzz** and we'll have about **~100 lines of 
 
 # Exercise
 
-We'll use **Node.js** with **no dependencies** and aim for Jest/Jasmine style syntax
+We'll use **Node.js** with **no dependencies** and aim for Jest/Jasmine style syntax:
 
 ```typescript
 describe('FizzBuzz', () => {
@@ -272,4 +276,4 @@ describe('FizzBuzz', () => {
 
 Let's go!!
 
-![bg right 90%](sledding.png)
+![bg right 90%](./images/sledding.png)
