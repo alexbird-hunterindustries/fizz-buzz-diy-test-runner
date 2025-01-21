@@ -6,4 +6,6 @@
  *   - If it is divisible by 3 and 5, return "FizzBuzz" instead
  */
 
+import { toFizzBuzzString } from "./toFizzBuzzString.mjs";
+
 console.log(toFizzBuzzString(1));
