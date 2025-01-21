@@ -1,4 +1,5 @@
 global.describe = (name, describeBlock) => {
+  describeBlock();
 };
 
 function expect(actual) {
