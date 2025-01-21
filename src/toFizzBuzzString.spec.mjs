@@ -7,17 +7,6 @@
  */
 
 import { toFizzBuzzString } from "./toFizzBuzzString.mjs";
+import { expect } from "./diyUnit.mjs";
 
 expect(toFizzBuzzString(1)).toEqual(1);
-
-function expect(actual) {
-  return {
-    toEqual: expected => {
-      console.log({
-        result: actual === expected ? "✅ PASS" : "❌ FAIL",
-        expected,
-        actual,
-      });
-    },
-  };
-}
