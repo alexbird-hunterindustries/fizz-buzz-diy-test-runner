@@ -4,7 +4,7 @@ We'll be solving FizzBuzz together, but we'll do it without any test tooling --
 we'll build our own as we go. The first test we write will use no special
 tooling. By the end, we will have written about 100 lines of hand-written
 test tooling code in JavaScript which we use to write Jest/Jasmine style
-`describe`/`it`/`expect` tests. 
+`describe`/`it`/`expect` tests.
 
 For those who test or want to, this is a discussion of the essence of unit
 testing with advice for improving your testing game.
@@ -31,6 +31,6 @@ Run the unit tests with:
 
 ## Screenshots
 
-![tests passing](./doc/example-success.jpg)
+![tests passing](readme_images/example-success.jpg)
 
-![tests failing](./doc/example-failure.jpg)
+![tests failing](readme_images/example-failure.jpg)
