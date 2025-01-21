@@ -4,7 +4,6 @@
 
 - it exercises our code
 - tells us if our code is behaving correctly
+- keeps test plumbing and test examples separate
 
 ## What's missing from our current approach?
-
-- our test plumbing and examples are tangled together
