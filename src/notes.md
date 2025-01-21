@@ -4,7 +4,7 @@
 
 - it exercises our code
 - tells us if the code is correct
+- separates the test plumbing from the code examples
 
 ## What's missing from our current approach?
 
-- separates the test plumbing from the code examples
