@@ -6,3 +6,5 @@
 - tells us if our code is behaving correctly
 
 ## What's missing from our current approach?
+
+- our test plumbing and examples are tangled together
