@@ -4,58 +4,88 @@ _class: lead
 paginate: true
 backgroundColor: #fff
 backgroundImage: url('https://marp.app/assets/hero-background.svg')
+footer: The "Taboo Test" | What Even Is A Test Framework? | Alex Bird | alex@alexanderbird.software
+breaks: 'off'
 ---
 
 # What Even Is A Test Framework?
 
-## The "Taboo Test" Learning Algorithm
+The "Taboo Test" Learning Algorithm
+
+![bg right 90%](./deer-on-deck.jpg)
+
+---
+
+![bg right 90%](./alexbird.jpg)
+
+# About Me
+
+I **write software** in an ensemble for Hunter Industries.
+
+My job is primarily **coaching**, but I do it by **coding with others**.
+
+alex&ZeroWidthSpace;**@alexanderbird**.software  
+**@alexanderbird**@mstdn.ca
 
 ---
 
 # Taboo
 
-Give clues to get your team to say "Dolphin", but you can't say
-any of these words.
+Give clues to get your team to say **"Dolphin"**, but you can't say any of these words.
 
-![w:800px](./taboo.jpg)
+![bg right 90%](./taboo.jpg)
 
 ---
 
-# The "Taboo Test"
+## The "Taboo Test"
 
-Can you explain the thing without saying the thing?
+You can pass the "Taboo Test" if you can **explain a concept** without **jargon**.
+
+![bg right 90%](./taboo.jpg)
+
+---
+
+## The "Taboo Test"
+
+For our day-to-day work, jargon speeds communication.
+
+But we cannot explain ourselves without jargon, we don't understand what we're talking about.
+
+![bg right 90%](./taboo.jpg)
 
 ---
 
 # What Even Is a Test Framework?
 
-Pretend with me for a moment that you do not know what is a test framework.
+**Pretend** with me for a moment that you do not know **what is a test framework**.
 
 If you genuinely don't know, even better.
 
 ---
 
-# Sidebar: Why Are We Pretending
+# Sidebar: Why Are We Pretending?
 
 - Software dev is a **learning profession**.
 - When you're a **faster learner**, you're **more senior**
 - This talk is **an exercise in learning**
-- So even testing experts: pretend with me that you're learning about test frameworks
+- So even if you are a testing expert: pretend with me that you don't have a intuitive understanding of what is a test
+  framework
     - Because I'm sure you still have to learn *something* in your career
+    - And **this exercise may help you become a better learner**
 
 ---
 
 # What Even Is a Test Framework?
 
-Pretend with me for a moment that you do not know what is a test framework.
+**Pretend** with me for a moment that you do not know **what is a test framework**.
 
-If you genuinely don't know, even better.
+You used test frameworks, but they're still magic to you.
 
 ---
 
 # Survey the field
 
-Suppose you've joined a team, and they say
+You've just joined a team, and on your first day your onboarding buddy says
 
 > We use xUnit for unit testing
 
@@ -87,20 +117,6 @@ Let's check some other testing tools
 
 ---
 
-# The "Taboo Test"
-
-Define "Testing Framework" without saying these words
-
-| Testing Framework |
-|-------------------|
-| Tool              |
-| Technology        |
-| Unit              |
-| Test              |
-| Enable            |
-
----
-
 # Wikipedia
 
 ## Test Automation Framework
@@ -114,8 +130,7 @@ Define "Testing Framework" without saying these words
 
 # The "Taboo Test"
 
-Take 1 minute; Write down your definition  
-(you'll refer back to your definition at the end of the talk)
+Define "Testing Framework" without saying these words
 
 | Testing Framework |
 |-------------------|
@@ -123,48 +138,95 @@ Take 1 minute; Write down your definition
 | Technology        |
 | Unit              |
 | Test              |
-| Enable            |
+| Automation        |
+
+---
+
+# The "Taboo Test"
+
+Take 1 minute; Write down your definition (you'll need it at the end)
+
+| Testing Framework |
+|-------------------|
+| Tool              |
+| Technology        |
+| Unit              |
+| Test              |
+| Automation        |
+
+---
+
+# Time's Up
+
+Let's answer this question together
+
+![bg right 90%](./deer-on-deck.jpg)
+
+---
+
+# Learning Prompt
+
+If we didn't have X, what would we do instead?
+
+---
+
+# Learning Prompt
+
+If we didn't have **our test framework**, what would we do instead?
+
+Once we answer this, we'll pass the "Taboo Test".
 
 ---
 
 # Exercise
 
-Discovering the essence of the Test Framework
+Discover the essence of a **test framework** by building one from scratch.
 
 ---
 
 # Exercise
 
-Discovering the essence of the Test Framework
+We're going to be coding **FizzBuzz** together, and we'll be **creating a test framework** as we go.
 
-We're going to be coding FizzBuzz together, but we'll be creating a test framework as we go.
-
----
-
-# Exercise
-
-Discovering the essence of the Test Framework
-
-We're going to be coding FizzBuzz together, but we'll be creating a test framework as we go.
-
-By the end, we'll have solved FizzBuzz and we'll have about ~100 lines of code for our test framework
+We'll practice Test Driven Development using our homemade test framework.
 
 ---
 
 # Exercise
 
-Discovering the essence of the Test Framework
+We're going to pay attention to **what we want** and **need** from this framework.
 
-We're going to be coding FizzBuzz together, but we'll be creating a test framework as we go.
+At first, the framework will suck, and **we'll write down why it sucks**.
 
-By the end, we'll have solved FizzBuzz and we'll have about ~100 lines of code for our test framework
-
-We'll use Node.js with no dependencies and aim for Jest/Jasmine syntax
+Then we'll unsuck it.
 
 ---
 
 # Exercise
 
-Let's go!
+By the end, we'll have **solved FizzBuzz** and we'll have about **~100 lines of code** for **our test framework**.
 
-(some exciting picture)
+---
+
+# Exercise
+
+We'll use **Node.js** with no **dependencies** and aim for Jest/Jasmine style syntax
+
+```typescript
+describe('FizzBuzz', () => {
+  it('logs the fizz buzz string up to 4', () => {
+    // ...
+    expect(consoleLog).toEqual([
+      // ...
+    ]);
+  });
+});
+```
+
+---
+
+# Exercise
+
+Let's go!!
+
+![bg right 90%](./sledding.png)
