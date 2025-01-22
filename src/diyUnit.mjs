@@ -14,10 +14,11 @@ global.describe = (describeName, describeBlock) => {
   };
   describeBlock();
   results.forEach(result => {
-    const icon = result.pass ? "✅" : "❌";
-    console.log(`${icon} ${result.describeName} > ${result.testName}`);
+    const statusColor = result.pass ? color.green : color.red;
+    const icon = result.pass ? "✔" : "𝗑";
+    console.log(statusColor(`${icon} ${result.describeName} > ${result.testName}`));
     if (!result.pass) {
-      console.log("    " + result.message);
+      console.log("    " + color.red(result.message));
     }
   });
   console.log("");
