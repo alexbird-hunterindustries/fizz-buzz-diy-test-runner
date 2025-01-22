@@ -1,6 +1,6 @@
 global.describe = (describeName, describeBlock) => {
   global.it = (testName, testBlock) => {
-
+    testBlock();
   }
   describeBlock()
 }
