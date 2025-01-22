@@ -1,5 +1,5 @@
 global.describe = (describeName, describeBlock) => {
-  let allPass = true;
+  const results = [];
   global.it = (testName, testBlock) => {
     global.expect = actual => {
       return {
@@ -7,15 +7,15 @@ global.describe = (describeName, describeBlock) => {
           const pass = actual === expected;
           const result = pass ? "✅ PASS" : "❌ FAIL";
           console.log({ result, expected, actual });
-          if (!pass) {
-            allPass = false;
-          }
+          results.push({ pass });
         },
       };
     };
     testBlock();
   };
   describeBlock();
+  console.log("");
+  const allPass = results.every(x => x.pass);
   console.log(allPass ? color.green("PASS") : color.red("FAIL"));
 };
 
