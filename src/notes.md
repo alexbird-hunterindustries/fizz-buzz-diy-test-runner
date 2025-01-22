@@ -18,6 +18,10 @@ A code library that makes it easy to:
     - supports parameterized tests
         - (which is helpful for simple functions that map input to output)
     - Has a familiar structure for writing tests so that new folks can onboard quickly
+- test doubles / mocks
+    - You can do this with dependency inversion (no tools needed)
+        - although for more advanced spies we would want some more advanced tools for
+          creating spy methods
 - test running and reporting (the test runner is a useful program)
     - it tells us if the code matches the examples
     - Has a single "pass"/"fail" at the end
@@ -28,4 +32,3 @@ A code library that makes it easy to:
 ## What's missing from our current approach?
 
 - you have to run individual test files
-- how do you use test doubles / mocks to test input/output (like "print")?

@@ -3,6 +3,13 @@ import { fizzBuzzLoop } from "./fizzBuzzLoop.mjs";
 
 describe("fizzBuzzLoop", () => {
   it("prints the fizz buzz string from 1 to n", () => {
-    fizzBuzzLoop();
+    const fakeLog = [];
+    fizzBuzzLoop({
+      consoleLog: message => fakeLog.push(message),
+    });
+
+    expect(fakeLog).toEqual([
+      "Hello, world",
+    ]);
   });
 });
