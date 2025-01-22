@@ -1,7 +1,3 @@
-function formatFailureMessage(expected, actual) {
-  return `Expected ${expected}, got ${actual}.`;
-}
-
 global.describe = (describeName, describeBlock) => {
   const results = [];
   global.it = (testName, testBlock) => {
@@ -44,3 +40,20 @@ const color = {
   red: text => `\x1b[31m${text}\x1b[0m`,
   green: text => `\x1b[32m${text}\x1b[0m`,
 };
+
+function formatFailureMessage(expected, actual) {
+  const prettyExpected = prettyPrint(expected);
+  const prettyActual = prettyPrint(actual);
+  if ((prettyActual + prettyExpected).includes("\n")) {
+    return `Expected:\n${prettyExpected}\nActual:\n${prettyActual}.`;
+  } else {
+    return `Expected ${prettyExpected}, got ${prettyActual}.`;
+  }
+}
+
+function prettyPrint(value) {
+  if (typeof value === "object") {
+    return JSON.stringify(value, null, 2);
+  }
+  return JSON.stringify(value);
+}
