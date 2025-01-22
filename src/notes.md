@@ -26,3 +26,6 @@ A code library that makes it easy to:
 
 ## What's missing from our current approach?
 
+- you have to run individual test files
+- how do you use test doubles / mocks to test input/output (like "print")?
+- it counts empty tests as passing
