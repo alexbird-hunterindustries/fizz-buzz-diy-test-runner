@@ -18,6 +18,6 @@ When you run the test, it tells you if the actual behavior is what you expect.
 
 - The more tests we write, the less clear the test output
     - For passes, I don't need nearly as much detail as for failures
-- I want a single "pass"/"fail" at the end
+- I want a single "pass"/"fail" at the end (with some statistics)
 - I'd like color coded output to make it clear at a glance if it's a pass or a fail
 
