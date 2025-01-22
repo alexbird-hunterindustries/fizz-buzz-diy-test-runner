@@ -1,9 +1,11 @@
 export function toFizzBuzzString(number) {
-  if (number % 3 === 0) {
+  if (isDivisibleBy(number, 3)) {
     return "Fizz";
   }
-  if (number % 5 === 0) {
+  if (isDivisibleBy(number, 5)) {
     return "Buzz";
   }
   return number;
 }
+
+const isDivisibleBy = (dividend, divisor) => dividend % divisor === 0;
