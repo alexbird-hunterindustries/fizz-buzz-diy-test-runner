@@ -43,3 +43,4 @@ These things are "good enough" for FizzBuzz, but still not great
         - https://github.com/jestjs/jest/blob/7ea9a406cb10e828099029c66671e7f5ff030572/packages/expect-utils/src/jasmineUtils.ts
 - for multiline differences, we should show a diff (highlight specific lines that have
   changed)
+- test discovery (when I add a .spec.mjs file, it should automatically be included)
