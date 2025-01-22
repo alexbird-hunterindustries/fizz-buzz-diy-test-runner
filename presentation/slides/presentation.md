@@ -61,7 +61,8 @@ You can pass the "Taboo Test" if you can **explain a concept** without **jargon*
 
 For our day-to-day work, **jargon speeds communication**.
 
-But **if we cannot explain ourselves without jargon**, we **don't understand** what we're talking about.
+But **if we cannot explain ourselves without jargon**, we **don't understand** what we're
+talking about.
 
 ![bg right 90%](./images/taboo.jpg)
 
@@ -71,7 +72,8 @@ But **if we cannot explain ourselves without jargon**, we **don't understand** w
 
 #### What if we didn't have X?
 
-I'm going to share a **learning strategy** that I have found helpful for myself and others to **get out of the
+I'm going to share a **learning strategy** that I have found helpful for myself and others
+to **get out of the
 Jargon Trap**; to learn enough to **pass the "Taboo Test"**.
 
 ![bg right 100%](./images/standing-deer.jpg)
@@ -148,8 +150,10 @@ You start by doing a web search: let's learn more about test frameworks
 
 - "Is an **integrated system**"
 - "Sets the **rules of automation** of a specified product"
-- "**Integrates** the function libraries, test data sources, object details, and various reusable models"
-- "The framework **provides the basis of test automation** and **simplifies the automation effort**"
+- "**Integrates** the function libraries, test data sources, object details, and various
+  reusable models"
+- "The framework **provides the basis of test automation** and **simplifies the automation
+  effort**"
 
 ---
 
@@ -217,7 +221,8 @@ Discover the essence of a **test framework** by building one from scratch.
 
 # Exercise
 
-We're going to be coding **FizzBuzz** together, and we'll be **creating a test framework** as we go.
+We're going to be coding **FizzBuzz** together, and we'll be **creating a test framework**
+as we go.
 
 We'll practice Test Driven Development using our homemade test framework.
 
@@ -251,7 +256,8 @@ Then we'll unsuck it.
 
 # Exercise
 
-By the end, we'll have **solved FizzBuzz** and we'll have about **~100 lines of code** for **our test framework**.
+By the end, we'll have **solved FizzBuzz** and we'll have about **~100 lines of code** for
+**our test framework**.
 
 ---
 
@@ -277,3 +283,163 @@ describe('FizzBuzz', () => {
 Let's go!!
 
 ![bg right 90%](./images/sledding.png)
+
+---
+
+#### What Did We Just Learn?
+
+- About testing?
+- About learning?
+- About teaching?
+
+![bg right 90%](./images/many-deer.jpg)
+
+---
+
+# A Test Is...
+
+- An **example** of how some **code should behave**.
+- It's usually written with a **traditional syntax**.
+- You can **run a test**
+    - It tells you if the **actual behavior** is **what you expect**.
+
+---
+
+# A Test Framework Is...
+
+A **code library** which...
+
+- Makes it easy to **write** a set of examples
+    - for how the code should behave
+- Can be run to **check** that all the code behaves as expected
+- Outputs a **summary** of the results of all the checks
+
+---
+
+# A Test Framework Is...
+
+- a **syntax** for your **examples**
+- an **executable** to **check** your code
+    - which **reports** the results concisely
+
+---
+
+#### What Did We Just Learn?
+
+- *Testing*: Tests are executable examples
+- About learning?
+- About teaching?
+
+![bg right 90%](./images/many-deer.jpg)
+
+---
+
+# The "Taboo Test"
+
+1. Take a **tool, practice, or concept** you use at work.
+2. Explain it **in your own words**, like you would to a friend from outside the software
+   industry.
+    - What is it for?
+    - How does it work?
+3. If you have a hard time explaining it, **you just found a learning opportunity** 🥳
+
+---
+
+# Learning Opportunity
+
+When I can't explain something I use often, **I make it my aim to become an expert in my
+area of confusion**.
+
+I do whatever it takes to become an expert.
+
+---
+
+# Become An Expert
+
+- Deep dive on **YouTube** (from one related video to the next)
+- **Build it** yourself **from scratch** (like we did together)
+    - Or brainstorm how you would build it from scratch
+- Buy a **textbook**, and read the whole thing
+- Write a blog post or make a video **explain**ing the thing
+    - (and do the **research** you need to do to prepare the answer)
+- **Find another expert** and ask them to teach you
+
+---
+
+# No, Seriously,
+
+**you can become an expert!**
+
+You don't have to "fake it until you make it".
+
+If you **need to know** something for work,  
+it's faster to **stop and learn it** than to fake it.
+
+![bg left 90%](./images/buck-on-lawn.jpg)
+
+---
+
+#### What Did We Just Learn?
+
+- *Testing*: Tests are executable examples
+- *Learning*: If you can't say it without jargon, maybe stop to make yourself
+  an expert.
+- About teaching?
+
+![bg right 90%](./images/many-deer.jpg)
+
+---
+
+#### Teaching From Miniatures
+
+- Software is complicated
+    - But often has a simple core
+- The simple core helps understand the mental model
+- The mental model helps understand the complicated whole
+
+![bg left 90%](./images/solitary-deer.jpg)
+
+---
+
+## Examples of Teaching From Miniatures
+
+- `rxjs` is a JavaScript library for asynchronous event pipelines
+    - &rarr; building a toy version with the JavaScript `Stream` class
+- Complicated array/map/reduce scenarios in production code
+    - &rarr; little array/map/reduce
+      exercises in an empty codebase
+
+---
+
+#### What Did We Just Learn?
+
+- *Testing*: Tests are executable examples.
+- *Learning*: If you can't say it without jargon, maybe stop to make yourself
+  an expert.
+- *Teaching*: Miniatures help develop mental models.
+
+![bg right 90%](./images/many-deer.jpg)
+
+---
+
+## And What Now?
+
+- *Builders*: Try making **diyUnit** with **your favorite language**.
+- *Learners*: This week, pay attention for something you **use but don't understand**.
+  Maybe, choose to **become an expert**.
+- *Teachers*: If folks are looking for **cheat sheets**, consider instead using a
+  miniature to **share your mental model** with them.
+
+---
+
+![bg right 90%](./images/alexbird-2.jpg)
+
+#### Thanks For Having Me!
+
+Alex Bird
+
+alex&ZeroWidthSpace;**@alexanderbird**.software  
+**@alexanderbird**@mstdn.ca
+
+Code and slides:
+[github.com/&ZeroWidthSpace;alexbird-hunterindustries/&ZeroWidthSpace;fizz-buzz-diy-test-runner](https://github.com/alexbird-hunterindustries/fizz-buzz-diy-test-runner)
