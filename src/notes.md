@@ -16,9 +16,7 @@ When you run the test, it tells you if the actual behavior is what you expect.
 - Has a familiar structure for writing tests so that new folks can onboard quickly
 - Has a single "pass"/"fail" at the end
     - (with some statistics and color coding for pass/fail)
+- Only shows details if the test fails
 
 ## What's missing from our current approach?
-
-- The more tests we write, the less clear the test output
-    - For passes, I don't need nearly as much detail as for failures
 
