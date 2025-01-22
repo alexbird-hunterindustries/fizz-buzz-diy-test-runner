@@ -9,7 +9,7 @@
 import { toFizzBuzzString } from "./toFizzBuzzString.mjs";
 import "./diyUnit.mjs";
 
-describe('toFizzBuzzString', () => {
+describe("toFizzBuzzString", () => {
 
   [
     { input: 1, output: 1 },
@@ -17,9 +17,10 @@ describe('toFizzBuzzString', () => {
     { input: 3, output: "Fizz" },
     { input: 4, output: 4 },
     { input: 5, output: "Buzz" },
+    { input: 6, output: "Fizz" },
   ].forEach(({ input, output }) => {
     it(`converts ${input} to ${output}`, () => {
       expect(toFizzBuzzString(input)).toEqual(output);
-    })
-  })
-})
+    });
+  });
+});
