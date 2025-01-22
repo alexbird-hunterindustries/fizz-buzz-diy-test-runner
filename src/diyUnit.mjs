@@ -20,7 +20,7 @@ global.describe = (describeName, describeBlock) => {
     const icon = result.pass ? "✔" : "𝗑";
     console.log(statusColor(`${icon} ${result.describeName} > ${result.testName}`));
     if (!result.pass) {
-      console.log("    " + color.red(result.message));
+      console.log(color.red(indent("    ", result.message)));
     }
   });
   console.log("");
@@ -56,4 +56,8 @@ function prettyPrint(value) {
     return JSON.stringify(value, null, 2);
   }
   return JSON.stringify(value);
+}
+
+function indent(spacing, text) {
+  return text.split("\n").map(x => spacing + x).join("\n");
 }
