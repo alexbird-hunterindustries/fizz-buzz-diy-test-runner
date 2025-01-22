@@ -6,7 +6,7 @@ global.describe = (describeName, describeBlock) => {
     global.expect = actual => {
       return {
         toEqual: expected => {
-          const pass = actual === expected;
+          const pass = JSON.stringify(actual) === JSON.stringify(expected);
           result.message = pass ? "" : `Expected ${expected}, got ${actual}.`;
           result.pass = pass;
         },
