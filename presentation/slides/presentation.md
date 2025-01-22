@@ -16,6 +16,17 @@ Escaping the Jargon Trap
 
 ---
 
+### We'll Be Talking About
+
+- Test tooling
+- Learning strategies
+- Teaching mental models
+- Deer pictures from my house
+
+![bg left 90%](./images/deer-on-deck-2.jpg)
+
+---
+
 ![bg right 90%](./images/alexbird.jpg)
 
 # About Me
@@ -33,11 +44,11 @@ alex&ZeroWidthSpace;**@alexanderbird**.software
 
 # About Me
 
+I want to **make others more effective** at work.
+
+So I often think about **how we learn and teach**.
+
 I'm learning about how to **transmit mental models** to others.
-
-My current focus is on how to efficiently **make others more effective**.
-
-So I end up thinking a lot about how we learn and teach.
 
 ---
 
@@ -57,9 +68,20 @@ You can pass the "Taboo Test" if you can **explain a concept** without **jargon*
 
 ---
 
+#### Jargon In The Workplace
+
+- Jargon refers to **words with rich meaning in a narrow context**
+- Speeds up conversation
+    - A sentence becomes a word
+- Hard for outsiders/ newcomers
+
+![bg right 90%](./images/taboo.jpg)
+
+---
+
 ## The "Jargon Trap"
 
-For our day-to-day work, **jargon speeds communication**.
+Jargon helps us work.
 
 But **if we cannot explain ourselves without jargon**, we **don't understand** what we're
 talking about.
@@ -68,7 +90,7 @@ talking about.
 
 ---
 
-# Learning Algorithm
+## Learning Strategy
 
 #### What if we didn't have X?
 
@@ -80,11 +102,20 @@ Jargon Trap**; to learn enough to **pass the "Taboo Test"**.
 
 ---
 
-# Learning Algorithm
+## Learning Strategy
 
 #### What if we didn't have X?
 
 We're going to use unit test frameworks as an **example of this learning approach**.
+
+![bg right 100%](./images/standing-deer.jpg)
+
+---
+
+## Exercise
+
+- "Test Framework" is jargon
+- We're going to explain it without using jargon
 
 ![bg right 100%](./images/standing-deer.jpg)
 
@@ -98,24 +129,12 @@ If you genuinely don't know, even better.
 
 ---
 
-# Sidebar: Why Are We Pretending?
-
-- Software dev is a **learning profession**.
-- When you're a **faster learner**, you **do better**
-- This talk is **an exercise in learning**
-- So even if you are a testing expert: pretend with me that you aren't
-    - You still have to learn *something* in your career
-    - And **this exercise** may **help you become a better learner**
-    - (or a **better teacher**)
-
----
-
 # Pretend We're In The Jargon Trap
 
-- You use a test frameworks, but **it's still magic to you**.
+- We use a test framework, but **it's still magic to us**.
 - Someone else set it up
-    - (so if the tests can't run at all, you'll need help)
-- When you write tests, you
+    - (so if the **tests can't run** at all, **we'll need help**)
+- When we write tests, we
     1. Find another test in the codebase
     2. **Copy + paste** it
     3. Modify it
@@ -124,7 +143,7 @@ If you genuinely don't know, even better.
 
 # Escaping the Jargon Trap
 
-You start by doing a web search: let's learn more about test frameworks
+We'll start by doing a web search: let's learn more about test frameworks
 
 ---
 
@@ -305,7 +324,7 @@ Let's go!!
 
 ---
 
-# A Test Framework Is...
+# A Test Framework Is... *
 
 A **code library** which...
 
@@ -316,11 +335,32 @@ A **code library** which...
 
 ---
 
-# A Test Framework Is...
+# A Test Framework Is... *
 
 - a **syntax** for your **examples**
 - an **executable** to **check** your code
     - which **reports** the results concisely
+
+---
+
+#                                   * Aside
+
+- I hope you prepend **"In Alex's opinion..."** before that and every other slide here.
+- This is **not a canonical definition**.
+- Next year I will probably express it differently.
+
+---
+
+# Compare With Your Definition
+
+Compare **the definition you wrote at the start** with this one &mdash; how do they
+compare?
+
+> A **code library** which...
+>
+> - Makes it easy to **write** a set of examples for how the code should behave
+> - Can be run to **check** that all the code behaves as expected
+> - Outputs a **summary** of the results of all the checks
 
 ---
 
@@ -354,13 +394,13 @@ I do whatever it takes to become an expert.
 
 ---
 
-# Become An Expert
+# Ideas For Becoming An Expert
 
-- Deep dive on **YouTube** (from one related video to the next)
 - **Build it** yourself **from scratch** (like we did together)
     - Or brainstorm how you would build it from scratch
+- Deep dive on **YouTube** (from one related video to the next)
 - Buy a **textbook**, and read the whole thing
-- Write a blog post or make a video **explain**ing the thing
+- Write a blog post or make a video **explaining** the thing
     - (and do the **research** you need to do to prepare the answer)
 - **Find another expert** and ask them to teach you
 
@@ -392,21 +432,49 @@ it's faster to **stop and learn it** than to fake it.
 
 #### Teaching From Miniatures
 
-- Software is complicated
-    - But often has a simple core
-- The simple core helps understand the mental model
-- The mental model helps understand the complicated whole
+Software is **complicated**  
+but often it has a **simple core**
 
 ![bg left 90%](./images/solitary-deer.jpg)
 
 ---
 
-## Examples of Teaching From Miniatures
+#### Teaching From Miniatures
+
+<br/>
+<br/>
+<br/>
+
+The **Simple core** gives us a  
+**mental model** to clarify the  
+**complicated whole**.
+
+![bg left 90%](./images/solitary-deer.jpg)
+
+---
+
+## Example of Teaching From Miniatures
+
+#### Sandbox for map/filter/reduce
 
 - complicated production code
     - &rarr; sandbox / playground environment
+
+---
+
+## Example of Teaching From Miniatures
+
+#### diy event library to mimic `rxjs`
+
 - `rxjs` async event library
     - &rarr; diy version using JavaScript `Stream`
+
+---
+
+## Example of Teaching From Miniatures
+
+#### Whiteboarding: what to do without Terraform?
+
 - Terraform for infrastructure as code (IaC)
     - &rarr; imaginary solution of evolving IaC
       from scratch
@@ -419,7 +487,8 @@ it's faster to **stop and learn it** than to fake it.
 - *Testing*: Tests are executable examples.
 - *Learning*: If you can't say it without jargon, maybe stop to make yourself
   an expert.
-- *Teaching*: Miniatures help develop mental models.
+- *Teaching*: Miniatures help develop mental models which help understand the complicated
+  whole.
 
 ![bg right 90%](./images/many-deer.jpg)
 
@@ -428,7 +497,8 @@ it's faster to **stop and learn it** than to fake it.
 ## And What Now?
 
 - *Builders*: Try making **diyUnit** with **your favorite language**.
-- *Learners*: This week, pay attention for something you **use but don't understand**.
+- *Learners*: This week, pay attention for something you **use but don't understand well
+  **.
   Maybe, choose to **become an expert**.
 - *Teachers*: If folks are looking for **cheat sheets**, consider instead using a
   miniature to **share your mental model** with them.
