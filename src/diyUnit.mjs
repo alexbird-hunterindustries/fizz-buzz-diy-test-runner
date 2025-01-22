@@ -1,12 +1,14 @@
 global.describe = (describeName, describeBlock) => {
   const results = [];
   global.it = (testName, testBlock) => {
+    const result = { pass: false, testName, describeName, message: "No expectations" };
+    results.push(result);
     global.expect = actual => {
       return {
         toEqual: expected => {
           const pass = actual === expected;
-          const message = pass ? "" : `Expected ${expected}, got ${actual}.`;
-          results.push({ pass, describeName, testName, message });
+          result.message = pass ? "" : `Expected ${expected}, got ${actual}.`;
+          result.pass = pass;
         },
       };
     };
