@@ -1,14 +1,12 @@
 export function toFizzBuzzString(number) {
-  if (number === 15) {
-    return "FizzBuzz";
-  }
+  let result = "";
   if (isDivisibleBy(number, 3)) {
-    return "Fizz";
+    result += "Fizz";
   }
   if (isDivisibleBy(number, 5)) {
-    return "Buzz";
+    result += "Buzz";
   }
-  return number;
+  return result || number;
 }
 
 const isDivisibleBy = (dividend, divisor) => dividend % divisor === 0;
