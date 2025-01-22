@@ -23,9 +23,9 @@ A code library that makes it easy to:
     - Has a single "pass"/"fail" at the end
         - (with some statistics and color coding for pass/fail)
     - Only shows details if the test fails
+    - it counts empty tests as failing
 
 ## What's missing from our current approach?
 
 - you have to run individual test files
 - how do you use test doubles / mocks to test input/output (like "print")?
-- it counts empty tests as passing
