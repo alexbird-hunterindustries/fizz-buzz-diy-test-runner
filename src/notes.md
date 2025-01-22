@@ -29,10 +29,9 @@ A code library that makes it easy to:
     - Only shows details if the test fails
     - it counts empty tests as failing
     - it can compare strings, numbers, objects, and arrays by using `JSON.stringify()`
+- Run all test files together
 
 ## What's missing from our current approach?
-
-- you have to run individual test files
 
 ### Things we won't fix today
 
