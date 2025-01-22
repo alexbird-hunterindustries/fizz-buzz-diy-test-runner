@@ -1,5 +1,6 @@
+const results = [];
+
 global.describe = (describeName, describeBlock) => {
-  const results = [];
   global.it = (testName, testBlock) => {
     const result = { pass: false, testName, describeName, message: "No expectations" };
     results.push(result);
@@ -15,8 +16,12 @@ global.describe = (describeName, describeBlock) => {
     testBlock();
   };
   describeBlock();
-  reportTestResults(results);
 };
+
+// From a web search for "Node run before exit"
+process.on("exit", () => {
+  reportTestResults(results);
+});
 
 function reportTestResults(results) {
   results.forEach(result => {
