@@ -19,6 +19,7 @@ describe("toFizzBuzzString", () => {
     { input: 5, output: "Buzz" },
     { input: 6, output: "Fizz" },
     { input: 10, output: "Buzz" },
+    { input: 15, output: "FizzBuzz" },
   ].forEach(({ input, output }) => {
 
     it(`converts ${input} to ${output}`, () => {
