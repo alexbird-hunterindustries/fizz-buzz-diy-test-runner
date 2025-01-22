@@ -5,6 +5,11 @@ When you run the test, it tells you if the actual behavior is what you expect.
 
 # What is a test framework?
 
+A code library that makes it easy to:
+
+- define a set of examples for how the code should behave
+- check that the code behavior matches those examples
+
 ## What's good about our current approach?
 
 - test writing (the test code is a valuable artifact)
