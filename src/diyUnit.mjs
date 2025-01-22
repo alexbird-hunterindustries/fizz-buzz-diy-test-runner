@@ -14,7 +14,11 @@ global.describe = (describeName, describeBlock) => {
   };
   describeBlock();
   results.forEach(result => {
-    console.log(result);
+    const icon = result.pass ? "✅" : "❌";
+    console.log(`${icon} ${result.describeName} > ${result.testName}`);
+    if (!result.pass) {
+      console.log("    " + result.message);
+    }
   });
   console.log("");
   const allPass = results.every(x => x.pass);
