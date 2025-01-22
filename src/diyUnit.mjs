@@ -1,4 +1,7 @@
-global.describe = (name, describeBlock) => {
+global.describe = (describeName, describeBlock) => {
+  global.it = (testName, testBlock) => {
+
+  };
   describeBlock();
 };
 
