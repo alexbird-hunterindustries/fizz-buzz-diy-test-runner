@@ -1,4 +1,3 @@
-export function fizzBuzzLoop({ consoleLog }) {
+export function fizzBuzzLoop(count, { consoleLog }) {
   consoleLog("Hello, world");
-
 }
