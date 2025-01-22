@@ -16,6 +16,12 @@ global.describe = (describeName, describeBlock) => {
   describeBlock();
   console.log("");
   const allPass = results.every(x => x.pass);
+  const passCount = results.filter(x => x.pass).length;
+  const failCount = results.filter(x => !x.pass).length;
+  console.log(`Ran: ${results.length}`);
+  console.log(`Passed: ${passCount}`);
+  console.log(`Failed: ${failCount}`);
+  console.log("");
   console.log(allPass ? color.green("PASS") : color.red("FAIL"));
 };
 
