@@ -1,3 +1,4 @@
-export function fizzBuzzLoop() {
+export function fizzBuzzLoop({ consoleLog }) {
+  consoleLog("Hello, world");
 
 }
