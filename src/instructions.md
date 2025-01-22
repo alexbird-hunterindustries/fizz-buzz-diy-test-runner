@@ -17,7 +17,7 @@
 ## Plan
 
 1. ✅ TDD a function `toFizzBuzzString` for all the interesting numbers
-2. TDD a function `fizzBuzzLoop`, but use a test double for `toFizzBuzzString` and
+2. ✅ TDD a function `fizzBuzzLoop`, but use a test double for `toFizzBuzzString` and
    `console.log`
 3. Write (and manually test) an executable file `fizzBuzz` that runs `fizzBuzzLoop`
     - This will use the real `toFizzBuzzString` and `console.log`
