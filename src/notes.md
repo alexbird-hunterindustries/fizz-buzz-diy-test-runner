@@ -32,3 +32,4 @@ A code library that makes it easy to:
 ## What's missing from our current approach?
 
 - you have to run individual test files
+- it uses `===` for equality, which doesn't work for arrays and objects
