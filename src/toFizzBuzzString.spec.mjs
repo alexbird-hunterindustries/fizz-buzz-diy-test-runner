@@ -1,5 +1,4 @@
 import { toFizzBuzzString } from "./toFizzBuzzString.mjs";
-import "./diyUnit.mjs";
 
 describe("toFizzBuzzString", () => {
 
