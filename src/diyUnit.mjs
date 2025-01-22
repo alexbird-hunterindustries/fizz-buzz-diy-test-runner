@@ -5,15 +5,17 @@ global.describe = (describeName, describeBlock) => {
       return {
         toEqual: expected => {
           const pass = actual === expected;
-          const result = pass ? "✅ PASS" : "❌ FAIL";
-          console.log({ result, expected, actual });
-          results.push({ pass });
+          const message = pass ? "" : `Expected ${expected}, got ${actual}.`;
+          results.push({ pass, describeName, testName, message });
         },
       };
     };
     testBlock();
   };
   describeBlock();
+  results.forEach(result => {
+    console.log(result);
+  });
   console.log("");
   const allPass = results.every(x => x.pass);
   const passCount = results.filter(x => x.pass).length;
