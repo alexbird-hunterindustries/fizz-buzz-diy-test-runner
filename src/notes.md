@@ -1,3 +1,8 @@
+# What is a test?
+
+An example of how some code should behave. It's usually written with a traditional syntax.
+When you run the test, it tells you if the actual behavior is what you expect.
+
 # What is a test framework?
 
 ## What's good about our current approach?
