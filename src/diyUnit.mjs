@@ -3,7 +3,8 @@ global.describe = (describeName, describeBlock) => {
     global.expect = actual => {
       return {
         toEqual: expected => {
-          console.log({ result: actual === expected ? '✅ PASS' : '❌ FAIL', expected, actual: actual });
+          const pass = actual === expected;
+          console.log({ result: pass ? '✅ PASS' : '❌ FAIL', expected, actual: actual });
         }
       }
     }
