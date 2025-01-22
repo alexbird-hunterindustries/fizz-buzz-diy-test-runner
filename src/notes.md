@@ -9,6 +9,7 @@ A code library that makes it easy to:
 
 - define a set of examples for how the code should behave
 - check that the code behavior matches those examples
+- aggregate results from examples in many files
 
 ## What's good about our current approach?
 
