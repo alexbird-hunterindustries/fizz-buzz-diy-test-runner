@@ -1,4 +1,3 @@
-import "./diyUnit.mjs";
 import { fizzBuzzLoop } from "./fizzBuzzLoop.mjs";
 
 describe("fizzBuzzLoop", () => {
