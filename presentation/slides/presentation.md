@@ -403,6 +403,7 @@ it's faster to **stop and learn it** than to fake it.
 
 ## Examples of Teaching From Miniatures
 
+- what we just did to figure out what is a testing framework
 - `rxjs` is a JavaScript library for asynchronous event pipelines
     - &rarr; building a toy version with the JavaScript `Stream` class
 - Complicated array/map/reduce scenarios in production code
