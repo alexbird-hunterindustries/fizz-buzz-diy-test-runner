@@ -33,7 +33,6 @@ A code library that makes it easy to:
 ## What's missing from our current approach?
 
 - you have to run individual test files
-- arrays are not printed nicely in the test failure output
 
 ### Things we won't fix today
 
@@ -43,3 +42,5 @@ These things are "good enough" for FizzBuzz, but still not great
     - compare with the Jest implementation of "equals", which is over 200 lines of code
         - it covers comparison of Errors, Dates, custom classes, and more
         - https://github.com/jestjs/jest/blob/7ea9a406cb10e828099029c66671e7f5ff030572/packages/expect-utils/src/jasmineUtils.ts
+- for multiline differences, we should show a diff (highlight specific lines that have
+  changed)
