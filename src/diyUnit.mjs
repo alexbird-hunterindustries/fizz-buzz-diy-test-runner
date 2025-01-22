@@ -1,3 +1,7 @@
+function formatFailureMessage(expected, actual) {
+  return `Expected ${expected}, got ${actual}.`;
+}
+
 global.describe = (describeName, describeBlock) => {
   const results = [];
   global.it = (testName, testBlock) => {
@@ -7,7 +11,7 @@ global.describe = (describeName, describeBlock) => {
       return {
         toEqual: expected => {
           const pass = JSON.stringify(actual) === JSON.stringify(expected);
-          result.message = pass ? "" : `Expected ${expected}, got ${actual}.`;
+          result.message = pass ? "" : formatFailureMessage(expected, actual);
           result.pass = pass;
         },
       };
