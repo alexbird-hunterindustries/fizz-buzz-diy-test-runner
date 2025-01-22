@@ -403,12 +403,14 @@ it's faster to **stop and learn it** than to fake it.
 
 ## Examples of Teaching From Miniatures
 
-- what we just did to figure out what is a testing framework
-- `rxjs` is a JavaScript library for asynchronous event pipelines
-    - &rarr; building a toy version with the JavaScript `Stream` class
-- Complicated array/map/reduce scenarios in production code
-    - &rarr; little array/map/reduce
-      exercises in an empty codebase
+- complicated production code
+    - &rarr; sandbox / playground environment
+- `rxjs` async event library
+    - &rarr; diy version using JavaScript `Stream`
+- Terraform for infrastructure as code (IaC)
+    - &rarr; imaginary solution of evolving IaC
+      from scratch
+        - AWS CLI > version controlled scripts > custom framework > managed state
 
 ---
 
