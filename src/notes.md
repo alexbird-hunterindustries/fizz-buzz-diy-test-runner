@@ -33,6 +33,7 @@ A code library that makes it easy to:
 ## What's missing from our current approach?
 
 - you have to run individual test files
+- arrays are not printed nicely in the test failure output
 
 ### Things we won't fix today
 
