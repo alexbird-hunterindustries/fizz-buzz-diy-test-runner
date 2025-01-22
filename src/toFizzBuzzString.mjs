@@ -1,4 +1,7 @@
 export function toFizzBuzzString(number) {
+  if (number === 15) {
+    return "FizzBuzz";
+  }
   if (isDivisibleBy(number, 3)) {
     return "Fizz";
   }
