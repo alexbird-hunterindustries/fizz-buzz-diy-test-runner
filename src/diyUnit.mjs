@@ -15,6 +15,10 @@ global.describe = (describeName, describeBlock) => {
     testBlock();
   };
   describeBlock();
+  reportTestResults(results);
+};
+
+function reportTestResults(results) {
   results.forEach(result => {
     const statusColor = result.pass ? color.green : color.red;
     const icon = result.pass ? "✔" : "𝗑";
@@ -32,7 +36,7 @@ global.describe = (describeName, describeBlock) => {
   console.log(`Failed: ${failCount}`);
   console.log("");
   console.log(allPass ? color.green("PASS") : color.red("FAIL"));
-};
+}
 
 // Color codes come from the Stack Overflow result for "Node console log color"
 // https://stackoverflow.com/a/41407246
