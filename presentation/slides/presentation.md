@@ -4,7 +4,7 @@ _class: lead
 paginate: true
 backgroundColor: #fff
 backgroundImage: url('https://marp.app/assets/hero-background.svg')
-footer: How Do You Become An Expert | Alex Bird | alex@alexanderbird.software
+footer: How Do You Become An Expert? | Alex Bird | alex@alexanderbird.software
 breaks: 'off'
 ---
 
@@ -125,50 +125,6 @@ If you want to **learn about test frameworks**, I suggest you pay attention to t
 
 ---
 
-# Becoming an Expert
-
-We'll start by doing a web search: let's learn more about test frameworks
-
----
-
-![width:1100px](./images/jest.png)
-
----
-
-![width:1100px](./images/junit.png)
-
----
-
-![width:1100px](./images/playwright.png)
-
----
-
-![width:1100px](./images/jasmine.jpg)
-
----
-
-# Wikipedia
-
-#### Test Automation Framework
-
-- "Is an **integrated system**"
-- "Sets the **rules of automation** of a specified product"
-- "**Integrates** the function libraries, test data sources, object details, and various
-  reusable models"
-- "The framework **provides the basis of test automation** and **simplifies the automation
-  effort**"
-
----
-
-### Becoming An Expert
-
-- ☑️ quick web search
-- 🔳 write what I know
-
-![bg right 90%](./images/many-deer.jpg)
-
----
-
 ## Exercise: Define "Test Framework"
 
 I'd like everyone to take **one minute** to write down
@@ -176,31 +132,27 @@ a few-sentence definition of a test framework.
 
 Pretend you're **explaining it to a friend** who **does not work in software**.
 
----
-
-### Becoming An Expert
-
-- ☑️ quick web search
-- ☑️ write what I know
-- 🔳 toy project
-
 ![bg right 90%](./images/many-deer.jpg)
 
 ---
 
-# Learning Prompt
+# Exercise
+
+#### Build The Thing
 
 If we didn't have X, what would we do instead?
 
-![bg left 100%](./images/standing-deer.jpg)
+![bg left 100%](./images/snow-fort.jpg)
 
 ---
 
-# Learning Prompt
+# Exercise
+
+#### Build A Test Framework
 
 If we didn't have **our test framework**, what would we do instead?
 
-![bg left 100%](./images/standing-deer.jpg)
+![bg left 100%](./images/snow-fort.jpg)
 
 ---
 
@@ -212,7 +164,7 @@ Discover the essence of a **test framework** by building one from scratch.
 
 ---
 
-# Exercise
+# Coding Plan
 
 We're going to be coding **FizzBuzz** together, and we'll be **creating a test framework**
 as we go.
@@ -237,7 +189,7 @@ Fizz
 
 ---
 
-# Exercise
+# Learning Plan
 
 We're going to pay attention to **what we want** and **need** from this framework.
 
@@ -247,14 +199,14 @@ Then we'll unsuck it.
 
 ---
 
-# Exercise
+# What To Expect
 
 By the end, we'll have **solved FizzBuzz** and we'll have about **~100 lines of code** for
 **our test framework**.
 
 ---
 
-# Exercise
+# Technology Decisions
 
 We'll use **Node.js** with **no dependencies** and aim for Jest/Jasmine style syntax:
 
@@ -271,20 +223,18 @@ describe('FizzBuzz', () => {
 
 ---
 
-# Exercise
-
-Let's go!!
+# Let's Get Coding!
 
 ![bg right 90%](./images/sledding.png)
 
 ---
 
-### Becoming An Expert
+### What Did We Learn?
 
-- ☑️ quick web search
-- ☑️ write what I know
-- ☑️ toy project
-- 🔳 put together what we know
+By building one from scratch, we got a sense for
+
+- what it's made of
+- what it's for
 
 ![bg right 90%](./images/many-deer.jpg)
 
@@ -299,41 +249,16 @@ Let's go!!
 
 ---
 
-# A Test Framework Is...
+# A Test Framework Is
 
-A **code library** which...
+A **code library** which
 
 - Makes it easy to **write** a set of examples
     - for how the code should behave
 - Can be run to **check** that all the code behaves as expected
 - Outputs a **summary** of the results of all the checks
 
----
-
-# More Ideas For Becoming An Expert
-
-- **Build it** yourself **from scratch** (like we did together)
-    - Or brainstorm how you would build it from scratch
-- Deep dive on **YouTube** (from one related video to the next)
-- Buy a **textbook**, and read the whole thing
-- Write a blog post or make a video **explaining** the thing
-    - (and do the **research** you need to do to prepare the answer)
-- **Find another expert** and ask them to teach you
-
----
-
-# No, Seriously,
-
-**you can become an expert!**
-
-You don't have to "fake it until you make it".
-
-If you **need to know** something for work,  
-it's faster to **stop and learn it** than to fake it.
-
-![bg left 90%](./images/buck-on-lawn.jpg)
-
----
+--- 
 
 ## Example of Toy Learning Projects
 
@@ -364,9 +289,28 @@ it's faster to **stop and learn it** than to fake it.
 
 ---
 
-# What Did We Just Learn?
+# More Ideas For Becoming An Expert
 
-![bg right 90%](./images/many-deer.jpg)
+- **Build it** yourself **from scratch** (like we did together)
+    - Or brainstorm how you would build it from scratch
+- Deep dive on **YouTube** (from one related video to the next)
+- Buy a **textbook**, and read the whole thing
+- Write a blog post or make a video **explaining** the thing
+    - (and do the **research** you need to do to prepare the answer)
+- **Find another expert** and ask them to teach you
+
+---
+
+# No, Seriously,
+
+**you can become an expert!**
+
+You don't have to "fake it until you make it".
+
+If you **need to know** something for work,  
+it's faster to **stop and learn it** than to fake it.
+
+![bg left 90%](./images/buck-on-lawn.jpg)
 
 ---
 
@@ -384,57 +328,36 @@ When You're On The Clock
 
 ---
 
-# And What Now?
+# Final Thoughts
 
-#### For Builders
+For **urgent** matters, the **fastest** way is often to **stop and learn**.
 
-For urgent matters, the fastest way is often to stop and learn
-
-If time or quality are not of the essence, then guessing works just as well
-
----
-
-# And What Now?
-
-#### For Leaders
-
-- We can't invent without learning
-    - If you weren't inventing, you could buy your software off the shelf
-- Your people can become experts if they have time to learn
-- Expertise makes us faster and better
-
----
-
-# And What Now?
-
-#### For Leaders
-
-If the work is **urgent**, I suggest you encourage your team to learn what they need to
-learn
-
-- Often, **the fastest way to finish** is to **stop and learn**
-- I see many coders **assume it's unprofessional** to stop and learn
-    - so **they need you to encourage them** to stop and learn
+![bg right 90%](./images/solitary-deer.jpg)
 
 ---
 
 # Final Thoughts
 
-In my experience, most software developers
+In my experience, most software developers:
 
 - could make themselves experts
 - but don't do so at work
 - because they think they aren't supposed to
 
+![bg right 90%](./images/solitary-deer.jpg)
+
 ---
 
 # On Becoming an Expert at Work
 
-- *For builders*: You don't need permission to **take the fastest route**
-    - often learning is the fastest route
-- *For leaders*: Builders seem to think they **need permission to stop the work, even if
-  it's the fastest way to finish** the work
-    - consider **encouraging them** to take the time they need **to become experts**
+*For builders*: You don't need permission to **take the fastest route**  
+often learning is the fastest route.
+
+<br/>
+
+*For leaders*: Builders seem to think they **need permission to stop the work, even if
+it's the fastest way to finish** the work  
+consider **encouraging them** to take the time they need **to become experts**
 
 ---
 
