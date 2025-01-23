@@ -4,13 +4,13 @@ _class: lead
 paginate: true
 backgroundColor: #fff
 backgroundImage: url('https://marp.app/assets/hero-background.svg')
-footer: The "Jargon Trap" | What Even Is A Test Framework? | Alex Bird | alex@alexanderbird.software
+footer: How Do You Become An Expert | Alex Bird | alex@alexanderbird.software
 breaks: 'off'
 ---
 
-## What Even Is A Test Framework?
+# How Do You Become An Expert
 
-Escaping the Jargon Trap
+When You're On The Clock
 
 ![bg right 90%](./images/deer-on-deck.jpg)
 
@@ -18,10 +18,11 @@ Escaping the Jargon Trap
 
 ### We'll Be Talking About
 
-- Test tooling
-- Learning strategies
-- Teaching mental models
-- Deer pictures from my house
+An alternative to **bluffing** about technology at work.
+
+Strategies to **make yourself an expert** during your workday.
+
+Photos of all the deer around my house.
 
 ![bg left 90%](./images/deer-on-deck-2.jpg)
 
@@ -31,105 +32,59 @@ Escaping the Jargon Trap
 
 # About Me
 
-I **write software** in an ensemble (mob) for Hunter Industries.
+**Ensemble (mob) programmer** for Hunter Industries
 
-My job is primarily **coaching**, but I do it by **coding with others**.
+My job title is "Distinguished Engineer", which at Hunter means
+mostly **coaching**, but I do it by **coding with others**.
 
 alex&ZeroWidthSpace;**@alexanderbird**.software  
 **@alexanderbird**@mstdn.ca
 
 ---
 
-![bg right 90%](./images/alexbird.jpg)
+## Question for You
 
-# About Me
+How long to spend on learning
 
-I want to **make others more effective** at work.
+When you need to know something for work,
 
-So I often think about **how we learn and teach**.
+but you don't know that thing yet?
 
-I'm learning about how to **transmit mental models** to others.
-
----
-
-# Taboo
-
-Give clues to get your team to say **"Dolphin"**, but you can't say any of these words.
-
-![bg right 90%](./images/taboo.jpg)
+![bg left 90%](./images/dump-buck.jpg)
 
 ---
 
-## The "Taboo Test"
+## Yuri's Textbook
 
-You can pass the "Taboo Test" if you can **explain a concept** without **jargon**.
+An anecdote
 
-![bg right 90%](./images/taboo.jpg)
-
----
-
-#### Jargon In The Workplace
-
-- Jargon refers to **words with rich meaning in a narrow context**
-- Speeds up conversation
-    - A sentence becomes a word
-- Hard for outsiders/ newcomers
-
-![bg right 90%](./images/taboo.jpg)
+![bg left 90%](./images/dump-buck.jpg)
 
 ---
 
-## The "Jargon Trap"
+# How Do You Become An Expert
 
-Jargon helps us work.
+When You're On The Clock
 
-But **if we cannot explain ourselves without jargon**, we **don't understand** what we're
-talking about.
-
-![bg right 90%](./images/taboo.jpg)
+![bg right 90%](./images/deer-on-deck.jpg)
 
 ---
 
-## Learning Strategy
+# Answer:
 
-#### What if we didn't have X?
+## Stop and Learn
 
-I'm going to share a **learning strategy** that I have found helpful for myself and others
-to **get out of the
-Jargon Trap**; to learn enough to **pass the "Taboo Test"**.
+1. Stop working
+2. Learn the thing
+3. Start working
 
 ![bg right 100%](./images/standing-deer.jpg)
 
 ---
 
-## Learning Strategy
+## Example: Unit Test Frameworks
 
-#### What if we didn't have X?
-
-We're going to use unit test frameworks as an **example of this learning approach**.
-
-![bg right 100%](./images/standing-deer.jpg)
-
----
-
-## Exercise
-
-- "Test Framework" is jargon
-- We're going to explain it without using jargon
-
-![bg right 100%](./images/standing-deer.jpg)
-
----
-
-# What Even Is a Test Framework?
-
-**Pretend** with me for a moment that you do not know **what is a test framework**.
-
-If you genuinely don't know, even better.
-
----
-
-# Pretend We're In The Jargon Trap
+Let's pretend...
 
 - We use a test framework, but **it's still magic to us**.
 - Someone else set it up
@@ -141,7 +96,36 @@ If you genuinely don't know, even better.
 
 ---
 
-# Escaping the Jargon Trap
+## Example: Unit Test Frameworks
+
+We noticed that we do a lot of guessing about this test tooling.
+
+So far, our strategy has been "**fake it 'till you make it**".
+
+We're ready to try something different.
+
+---
+
+## Example: Unit Test Frameworks
+
+We've stopped our work  
+with the goal of becoming more of an expert
+
+---
+
+## A Quick Aside
+
+For most of the rest of the talk we'll be exploring this example
+
+If you want to **learn about learning**, I suggest you pay attention to the **high level
+technique.**
+
+If you want to **learn about test frameworks**, I suggest you pay attention to the
+**technical details.**
+
+---
+
+# Becoming an Expert
 
 We'll start by doing a web search: let's learn more about test frameworks
 
@@ -176,39 +160,31 @@ We'll start by doing a web search: let's learn more about test frameworks
 
 ---
 
-# The "Taboo Test"
+### Becoming An Expert
 
-Define "Testing Framework" without saying these words
+- ☑️ quick web search
+- 🔳 write what I know
 
-| Testing Framework |
-|-------------------|
-| Tool              |
-| Technology        |
-| Unit              |
-| Test              |
-| Automation        |
+![bg right 90%](./images/many-deer.jpg)
 
 ---
 
-# The "Taboo Test"
+## Exercise: Define "Test Framework"
 
-Take 1 minute; Write down your definition (you'll need it at the end)
+I'd like everyone to take **one minute** to write down
+a few-sentence definition of a test framework.
 
-| Testing Framework |
-|-------------------|
-| Tool              |
-| Technology        |
-| Unit              |
-| Test              |
-| Automation        |
+Pretend you're **explaining it to a friend** who **does not work in software**.
 
 ---
 
-# Time's Up
+### Becoming An Expert
 
-Let's answer this question together!
+- ☑️ quick web search
+- ☑️ write what I know
+- 🔳 toy project
 
-![bg right 90%](./images/deer-on-deck.jpg)
+![bg right 90%](./images/many-deer.jpg)
 
 ---
 
@@ -223,8 +199,6 @@ If we didn't have X, what would we do instead?
 # Learning Prompt
 
 If we didn't have **our test framework**, what would we do instead?
-
-Once we answer this, we'll be **able to pass the "Taboo Test"**.
 
 ![bg left 100%](./images/standing-deer.jpg)
 
@@ -305,17 +279,18 @@ Let's go!!
 
 ---
 
-#### What Did We Just Learn?
+### Becoming An Expert
 
-- About testing?
-- About learning?
-- About teaching?
+- ☑️ quick web search
+- ☑️ write what I know
+- ☑️ toy project
+- 🔳 put together what we know
 
 ![bg right 90%](./images/many-deer.jpg)
 
 ---
 
-# A Test Is...
+# A Test Is an Executable Example
 
 - An **example** of how some **code should behave**.
 - It's usually written with a **traditional syntax**.
@@ -324,7 +299,7 @@ Let's go!!
 
 ---
 
-# A Test Framework Is... *
+# A Test Framework Is...
 
 A **code library** which...
 
@@ -335,66 +310,7 @@ A **code library** which...
 
 ---
 
-# A Test Framework Is... *
-
-- a **syntax** for your **examples**
-- an **executable** to **check** your code
-    - which **reports** the results concisely
-
----
-
-#                                   * Aside
-
-- I hope you prepend **"In Alex's opinion..."** before that and every other slide here.
-- This is **not a canonical definition**.
-- Next year I will probably express it differently.
-
----
-
-# Compare With Your Definition
-
-Compare **the definition you wrote at the start** with this one &mdash; how do they
-compare?
-
-> A **code library** which...
->
-> - Makes it easy to **write** a set of examples for how the code should behave
-> - Can be run to **check** that all the code behaves as expected
-> - Outputs a **summary** of the results of all the checks
-
----
-
-#### What Did We Just Learn?
-
-- *Testing*: Tests are executable examples
-- About learning?
-- About teaching?
-
-![bg right 90%](./images/many-deer.jpg)
-
----
-
-# The "Taboo Test"
-
-1. Take a **tool, practice, or concept** you use at work.
-2. Explain it **in your own words**, like you would to a friend from outside the software
-   industry.
-    - What is it for?
-    - How does it work?
-3. If you have a hard time explaining it, **you just found a learning opportunity** 🥳
-
----
-
-# Learning Opportunity
-
-When I can't explain something I use often, **I make it my aim to become an expert in my
-area of confusion**.
-
-I do whatever it takes to become an expert.
-
----
-
-# Ideas For Becoming An Expert
+# More Ideas For Becoming An Expert
 
 - **Build it** yourself **from scratch** (like we did together)
     - Or brainstorm how you would build it from scratch
@@ -419,41 +335,7 @@ it's faster to **stop and learn it** than to fake it.
 
 ---
 
-#### What Did We Just Learn?
-
-- *Testing*: Tests are executable examples
-- *Learning*: If you can't say it without jargon, maybe stop to make yourself
-  an expert.
-- About teaching?
-
-![bg right 90%](./images/many-deer.jpg)
-
----
-
-#### Teaching From Miniatures
-
-Software is **complicated**  
-but often it has a **simple core**
-
-![bg left 90%](./images/solitary-deer.jpg)
-
----
-
-#### Teaching From Miniatures
-
-<br/>
-<br/>
-<br/>
-
-The **Simple core** gives us a  
-**mental model** to clarify the  
-**complicated whole**.
-
-![bg left 90%](./images/solitary-deer.jpg)
-
----
-
-## Example of Teaching From Miniatures
+## Example of Toy Learning Projects
 
 #### Sandbox for map/filter/reduce
 
@@ -462,7 +344,7 @@ The **Simple core** gives us a
 
 ---
 
-## Example of Teaching From Miniatures
+## Example of Toy Learning Projects
 
 #### diy event library to mimic `rxjs`
 
@@ -471,7 +353,7 @@ The **Simple core** gives us a
 
 ---
 
-## Example of Teaching From Miniatures
+## Example of Toy Learning Projects
 
 #### Whiteboarding: what to do without Terraform?
 
@@ -484,24 +366,33 @@ The **Simple core** gives us a
 
 #### What Did We Just Learn?
 
-- *Testing*: Tests are executable examples.
-- *Learning*: If you can't say it without jargon, maybe stop to make yourself
-  an expert.
-- *Teaching*: Miniatures help develop mental models which help understand the complicated
-  whole.
+- several haphazard ideas about learning at work
+- a concrete exercise for learning at work: **"If we didn't have X, what would we do?"**
+- Alex asserts that it's worth it to learn at work
+    - faster and more fun
 
 ![bg right 90%](./images/many-deer.jpg)
 
 ---
 
-## And What Now?
+# And What Now?
 
-- *Builders*: Try making **diyUnit** with **your favorite language**.
-- *Learners*: This week, pay attention for something you **use but don't understand well
-  **.
-  Maybe, choose to **become an expert**.
-- *Teachers*: If folks are looking for **cheat sheets**, consider instead using a
-  miniature to **share your mental model** with them.
+#### For Builders
+
+Suppose you have a few days to do a thing, but you don't know the tech
+
+Probably the fastest way forward is to stop, learn the tech, and then proce3ed
+
+---
+
+# And What Now?
+
+#### For Leaders
+
+- *Leaders*: If you don't make time for learning, your people will be guessing which is
+  slow and risky
+    - Tell them to learn! Make space for this.
+    - You can have **experts** working for you if you give them space to train themselves
 
 ---
 
