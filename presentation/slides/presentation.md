@@ -364,14 +364,23 @@ it's faster to **stop and learn it** than to fake it.
 
 ---
 
-#### What Did We Just Learn?
-
-- several haphazard ideas about learning at work
-- a concrete exercise for learning at work: **"If we didn't have X, what would we do?"**
-- Alex asserts that it's worth it to learn at work
-    - faster and more fun
+# What Did We Just Learn?
 
 ![bg right 90%](./images/many-deer.jpg)
+
+---
+
+### ~~How Do You~~ Become An Expert
+
+When You're On The Clock
+
+&darr;
+
+### You Can Become An Expert
+
+When You're On The Clock
+
+![bg right 90%](./images/buck-on-lawn.jpg)
 
 ---
 
@@ -379,9 +388,9 @@ it's faster to **stop and learn it** than to fake it.
 
 #### For Builders
 
-Suppose you have a few days to do a thing, but you don't know the tech
+For urgent matters, the fastest way is often to stop and learn
 
-Probably the fastest way forward is to stop, learn the tech, and then proce3ed
+If time or quality are not of the essence, then guessing works just as well
 
 ---
 
@@ -389,10 +398,43 @@ Probably the fastest way forward is to stop, learn the tech, and then proce3ed
 
 #### For Leaders
 
-- *Leaders*: If you don't make time for learning, your people will be guessing which is
-  slow and risky
-    - Tell them to learn! Make space for this.
-    - You can have **experts** working for you if you give them space to train themselves
+- We can't invent without learning
+    - If you weren't inventing, you could buy your software off the shelf
+- Your people can become experts if they have time to learn
+- Expertise makes us faster and better
+
+---
+
+# And What Now?
+
+#### For Leaders
+
+If the work is **urgent**, I suggest you encourage your team to learn what they need to
+learn
+
+- Often, **the fastest way to finish** is to **stop and learn**
+- I see many coders **assume it's unprofessional** to stop and learn
+    - so **they need you to encourage them** to stop and learn
+
+---
+
+# Final Thoughts
+
+In my experience, most software developers
+
+- could make themselves experts
+- but don't do so at work
+- because they think they aren't supposed to
+
+---
+
+# On Becoming an Expert at Work
+
+- *For builders*: You don't need permission to **take the fastest route**
+    - often learning is the fastest route
+- *For leaders*: Builders seem to think they **need permission to stop the work, even if
+  it's the fastest way to finish** the work
+    - consider **encouraging them** to take the time they need **to become experts**
 
 ---
 
