@@ -98,9 +98,9 @@ Let's pretend...
 
 ## Example: Unit Test Frameworks
 
-We noticed that we do a lot of guessing about this test tooling.
+We noticed that we do a lot of **guessing** about this test tooling.
 
-So far, our strategy has been "**fake it 'till you make it**".
+So far, our strategy has been **"fake it 'till you make it"**.
 
 We're ready to try something different.
 
@@ -231,38 +231,69 @@ describe('FizzBuzz', () => {
 
 ### What Did We Learn?
 
-By building one from scratch, we got a sense for
+By building a test framework from scratch, we got a sense of:
 
-- what it's made of
-- what it's for
+- what are the main parts?
+- why do we want it?
 
 ![bg right 90%](./images/many-deer.jpg)
 
 ---
 
-# A Test Is an Executable Example
+### We Don't Need Jargon
+
+- We now **understand** the concept
+- And can **explain it without jargon**
+- In a way non-software **friends may understand**
+
+![bg right 90%](./images/many-deer.jpg)
+
+---
+
+# We Learned...
+
+#### A Test Is an Executable Example
 
 - An **example** of how some **code should behave**.
-- It's usually written with a **traditional syntax**.
+- It's usually written with a **traditional syntax/structure**.
 - You can **run a test**
     - It tells you if the **actual behavior** is **what you expect**.
 
 ---
 
-# A Test Framework Is
+# We Learned...
 
-A **code library** which
+#### A Test Framework Is A Code Library
 
-- Makes it easy to **write** a set of examples
+- It makes it easy to **write** a set of examples
     - for how the code should behave
-- Can be run to **check** that all the code behaves as expected
-- Outputs a **summary** of the results of all the checks
+- It can be run to **check** that all the code behaves as expected
+- It outputs a **summary** of the results of all the checks
+
+--- 
+
+# What Now?
+
+**What will be different** for you at work **this week**  
+as a result of this talk?
+
+![bg 90% right](./images/fox.jpg)
 
 --- 
 
 ## Example of Toy Learning Projects
 
+#### diyUnit in your language
+
+You could repeat what we did here using your favorite language and coding exercise
+
+---
+
+## Example of Toy Learning Projects
+
 #### Sandbox for map/filter/reduce
+
+*1-2 hours, ongoing*
 
 - complicated production code
     - &rarr; sandbox / playground environment
@@ -273,6 +304,8 @@ A **code library** which
 
 #### diy event library to mimic `rxjs`
 
+*4+ hours, one time*
+
 - `rxjs` async event library
     - &rarr; diy version using JavaScript `Stream`
 
@@ -281,6 +314,8 @@ A **code library** which
 ## Example of Toy Learning Projects
 
 #### Whiteboarding: what to do without Terraform?
+
+*1 hour, one time*
 
 - Terraform for infrastructure as code (IaC)
     - &rarr; imaginary solution of evolving IaC
@@ -291,7 +326,7 @@ A **code library** which
 
 # More Ideas For Becoming An Expert
 
-- **Build it** yourself **from scratch** (like we did together)
+- **Build something** yourself **from scratch** (like we did together)
     - Or brainstorm how you would build it from scratch
 - Deep dive on **YouTube** (from one related video to the next)
 - Buy a **textbook**, and read the whole thing
@@ -320,7 +355,7 @@ When You're On The Clock
 
 &darr;
 
-### You Can Become An Expert
+### *You* Can Become An Expert
 
 When You're On The Clock
 
