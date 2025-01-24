@@ -355,7 +355,7 @@ When You're On The Clock
 
 &darr;
 
-### *You* Can Become An Expert
+### You Can Become An Expert
 
 When You're On The Clock
 
