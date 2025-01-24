@@ -15,8 +15,8 @@ The talk is intended for software developers and those whose job requires them t
 influence or lead software developers.
 
 To get the most out of the talk, you will need to be able to read JavaScript code. Or, you
-could plan on answering emails for the live coding part of the talk and just tune in for
-the stories and conclusions.
+could tune in for the stories and conclusions (and you could answer your emails during
+the live coding part).
 
 ## Dev Notes
 
