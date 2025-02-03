@@ -6,17 +6,11 @@ the next year you're a novice. Our success depends on how well we learn.
 In this presentation and live coding demo, I'll be talking about alternatives to "fake
 it 'till you make it". I'll share stories about challenging learning situations, and leave
 you with some concrete ideas for how to make yourself an expert in the tools and practices
-you use at work.
+you use at work. I hope you'll leave the talk with more confidence and excitement about
+learning at work (or more ideas about how to stir up that hunger to learn in others).
 
-We will be creating a minimal (<100 loc) test framework from scratch to explore how toy
-projects can de-mystify magical tools and translate jargon into intuition.
-
-The talk is intended for software developers and those whose job requires them to
-influence or lead software developers.
-
-To get the most out of the talk, you will need to be able to read JavaScript code. Or, you
-could tune in for the stories and conclusions (and you could answer your emails during
-the live coding part).
+In the second half of the talk, we will be creating a minimal test framework from
+scratch (no dependencies) to explore how to de-mystify "magical" tools with toy projects.
 
 ## Dev Notes
 
