@@ -48,6 +48,37 @@ alex&ZeroWidthSpace;**@alexanderbird**.software
 
 ---
 
+## A guessed solution
+
+![bg right 90%](./images/dump-buck.jpg)
+
+When I say "guess" in this talk, I mean **proposing a solution without understanding the
+problem**
+
+- *pro*: if it works, problem solved!
+- *con*: if it doesn't work, we're no closer to the solution
+
+---
+
+## Love the problem
+
+![bg right 90%](./images/dump-buck.jpg)
+
+- Instead of guessing solutions, study the problem
+- The more you learn about the problem, the more obvious the solution
+
+---
+
+### Compounding learning
+
+![bg right 90%](./images/dump-buck.jpg)
+
+- Often, we see **similar problems** in the future
+- If we **guess now**, we'll still have to **guess later**
+- If we **learn now**, we'll still **know later**
+
+---
+
 <!-- progress slide -->
 
 ## How Do You Become An Expert
@@ -59,12 +90,25 @@ alex&ZeroWidthSpace;**@alexanderbird**.software
     - _
     - _
     - _
+- _
 
 ---
 
 ### Learn Mental Models
 
 ![bg left 90%](./images/fox.jpg)
+
+- map vs turning directions
+- latin vs memorized medical words
+- story of the engineer with the hammer
+
+---
+
+### Learn Mental Models
+
+![bg left 90%](./images/fox.jpg)
+
+Here are some techniques for learning mental models
 
 ---
 
@@ -79,6 +123,7 @@ alex&ZeroWidthSpace;**@alexanderbird**.software
     - _
     - _
     - _
+- _
 
 ---
 
@@ -87,6 +132,54 @@ alex&ZeroWidthSpace;**@alexanderbird**.software
 #### To Learn Mental Models
 
 ![bg right 90%](./images/solitary-deer.jpg)
+
+---
+
+# Read
+
+![bg right 90%](./images/solitary-deer.jpg)
+
+- Choose **high quality docs**
+    - (published API docs, textbook)
+- Skim read
+    - all of it
+    - or at least table of contents
+
+---
+
+## Forget Most Of It
+
+![bg right 90%](./images/solitary-deer.jpg)
+
+- No need to remember it
+- As you work, problems will remind you of something you read
+- Then you can look up the details as needed
+
+---
+
+## Goal: Mental Model
+
+![bg right 90%](./images/solitary-deer.jpg)
+
+The goal is to get a **rough mental model**
+
+- the map of the territory
+- a sense of what is possible
+- just enough to know what you don't know
+
+---
+
+![bg center 85%](./images/history-back-docs.png)
+<!-- backgroundColor: #1B1B1B -->
+<!-- backgroundImage: none -->
+
+---
+
+<!-- backgroundImage: url('https://marp.app/assets/hero-background.svg') -->
+
+- When we read the page, we didn't know that the extra paragraphs would be useful
+- When we faced the problems, they reminded us of the docs
+- We consulted the docs and had a clear idea of how to fix
 
 ---
 
@@ -101,6 +194,7 @@ alex&ZeroWidthSpace;**@alexanderbird**.software
     - Skim **Read**
     - _
     - _
+- _
 
 ---
 
@@ -109,6 +203,89 @@ alex&ZeroWidthSpace;**@alexanderbird**.software
 #### To Learn Mental Models
 
 ![bg left 90%](./images/buck-on-lawn.jpg)
+
+---
+
+## Example: "how does Terraform work?"
+
+- We use Terraform to describe our infrastructure as code
+- My teammate hadn't used it much
+- He could get by, but it felt like magic to him
+
+---
+
+## Example: "how does Terraform work?"
+
+- We took 30-60 minutes at a whiteboard discussing infrastructure as code
+- The prompt: "if we didn't have Terraform, what would we do?"
+- Discussion of
+    - version controlled bash scripts
+    - somewhere to store state like resource ids
+    - what happens if two people change infra at the same time
+
+---
+
+## Example: "how does Terraform work?"
+
+- My teammate's mental model before the brainstorm:
+    - "We use Terraform for our AWS"
+- Mental model after the brainstorm:
+    - Terraform is a wrapper over the AWS API
+- Impact:
+    - Terraform resources map to AWS APIs
+    - AWS API docs explain the meaning of Terraform inputs
+    - Terraform isn't magic anymore
+
+---
+
+#### Ask Someone For Their Mental Model
+
+![bg left 90%](./images/buck-on-lawn.jpg)
+
+> Hey, Peter, we can't wrap our heads around Terraform. What even is it?
+>
+> Do you have an hour to whiteboard with us?
+
+---
+
+#### Ask Someone For Their Mental Model
+
+![bg left 90%](./images/buck-on-lawn.jpg)
+
+> Hey, Sharon, I'm trying to understand what Terraform is for. If we didn't use Terraform,
+> what would we do?
+>
+> Do you have some time to help me out?
+
+---
+
+#### Ask Someone For Their Mental Model
+
+![bg left 90%](./images/buck-on-lawn.jpg)
+
+> Hey, Dexter, I've seen you're doing a lot of Terraform work.
+> We wrote this Terraform code today, but I don't understand it. Can you help me?
+
+---
+
+#### Prerequisite: Safe To Ask
+
+![bg left 90%](./images/buck-on-lawn.jpg)
+
+For this to work, you have to be in an environment where it is **safe to admit you don't
+understand**.
+
+If you don't have that at work, consider asking a friend from outside your company
+
+---
+
+## Goal: What's Their Mental Model?
+
+![bg left 90%](./images/buck-on-lawn.jpg)
+
+You're trying to figure out how this expert thinks about the problem
+
+**They have a mental map** of the territory, and you're trying to **draw it out of them**
 
 ---
 
@@ -123,6 +300,7 @@ alex&ZeroWidthSpace;**@alexanderbird**.software
     - Skim **Reading**
     - **Ask** Others
     - _
+- _
 
 ---
 
@@ -131,6 +309,67 @@ alex&ZeroWidthSpace;**@alexanderbird**.software
 #### To Learn Mental Models
 
 ![bg right 90%](./images/standing-deer.jpg)
+
+---
+
+# Play
+
+Sometimes the fastest way to solve a problem is to **goof off**
+
+---
+
+# Play at Work
+
+- Code exercises
+- Toy projects
+- Try lots of different things
+
+---
+
+# Accounting for Play at Work
+
+- If you don't know how to do the thing, you'll **make many guesses**
+- Use the time you would have been guessing; **learn (play) instead**
+- Then **quickly solve the problem** (since you now know how to do it)
+
+---
+
+## Prerequisite: Measured on Outcome
+
+In some work places, your performance evaluation depends on looking busy
+
+In those environments, learning through play may be unwise
+
+Even if it is more efficient than guessing
+
+---
+
+## Prerequisite: Measured on Outcome
+
+If you're in a "look busy" workplace, consider:
+
+- learning through reading, which is often considered more "professional" than play
+- practice describing your learning through play in business terms that make it sound
+  professional
+
+---
+
+### Professional Language for Learning through Play
+
+- "we're building a prototype"
+- "we're exploring the capabilities of our dependency so we can integrate with it more
+  effectively"
+- "we're doing a trial run of the integration in a sandbox so we can more quickly pinpoint
+  problems"
+
+---
+
+### Professional Language for Learning through Play
+
+- "we're doing assumption testing on this third party component"
+- "the last few times we used X we went 1d over budget. We are spending 4h finding ways to
+  reduce the uncertainty around X to reduce the chance of repeating the overage. We'll
+  measure our next use of X to see if we still exceed our estimate."
 
 ---
 
@@ -145,6 +384,102 @@ alex&ZeroWidthSpace;**@alexanderbird**.software
     - Skim **Read**
     - **Ask** Others
     - **Play**
+- _
+
+---
+
+# Making a Business Justification for Learning
+
+1. Identify the business driver that relates to learning
+2. Report your learning in the context of that business driver
+
+---
+
+# Making a Business Justification for Learning
+
+- The less we know, the higher the variability/uncertainty
+    - Learning can give us lower risk, more consistent delivery
+    - Sometimes, we're so precariously positioned that we must take high risk. Guess,
+      don't learn
+- Learning now makes us faster later
+    - An investment in our future delivery
+
+---
+
+# Learning to de-risk delivery
+
+If your business **values predictable delivery**, frame learning time as **work done to
+reduce variability**.
+
+- point to recent times of unexpected delay because of technical surprises
+- invest in learning to reduce those surprise delays
+
+---
+
+# For short term speed, don't learn
+
+### (and increase risk)
+
+Sometimes, a business position requires haste at all costs
+
+Leaders may request that you go as fast as possible, no matter the risk
+
+Take the risk, skip the learning. Either your guess works and you win, or you pivot and
+try something else
+
+---
+
+# Learn to invest in future delivery
+
+Sometimes, your business leaders want to invest in the future. "What can we do to deliver
+faster?"
+
+You can report learning time as time spent to make us go faster
+
+---
+
+# Learning for short term speed
+
+I've found it's not uncommon that the fastest way to do this week's work is to stop and
+learn
+
+If that's the case, report your learning time as the most efficient way to complete your
+current task
+
+---
+
+# Learning for your career
+
+Maybe, there is no business justification for learning. The risk, variability, and pace
+are all acceptable to your employer.
+
+If you want to learn but there is no business justification for it, then maybe you're
+looking at evening/weekend learning time.
+
+---
+
+## Figure out how to report learning time well
+
+- If it's good for the business, then your leaders should be happy you're doing it
+- But if you can't explain why it's good for business, your leaders are not likely to be
+  happy you're doing it
+- So figure out how to explain why it's good for the business
+- Then everyone's happy
+
+---
+
+<!-- progress slide -->
+
+## How Do You Become An Expert
+
+#### When You're On The Clock
+
+- Instead of guessing, **learn**
+- Focus on learning **mental models**
+    - Skim **Read**
+    - **Ask** Others
+    - **Play**
+- Figure out how to report learning time well
 
 ---
 
