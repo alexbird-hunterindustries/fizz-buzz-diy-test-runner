@@ -52,11 +52,21 @@ alex&ZeroWidthSpace;**@alexanderbird**.software
 
 ![bg right 90%](./images/dump-buck.jpg)
 
-When I say "guess" in this talk, I mean **proposing a solution without understanding the
+**Proposing a solution without understanding the
 problem**
 
 - *pro*: if it works, problem solved!
+- *con*: if it works, we don't know why it worked
 - *con*: if it doesn't work, we're no closer to the solution
+
+---
+
+# Why Do We Guess
+
+- Often, because we're responsible
+- We want to make good use of our employer's time
+- Learning is viewed as a self-indulgent activity
+- I'm here to work
 
 ---
 
