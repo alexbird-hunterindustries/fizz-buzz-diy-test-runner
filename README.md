@@ -12,6 +12,8 @@ learning at work (or more ideas about how to stir up that hunger to learn in oth
 In the second half of the talk, we will be creating a minimal test framework from
 scratch (no dependencies) to explore how to de-mystify "magical" tools with toy projects.
 
+[Slides](./presentation/slides/presentation.html)
+
 ## Dev Notes
 
 ### Prerequisites
