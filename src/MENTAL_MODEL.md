@@ -4,3 +4,9 @@
 - No test infra cluttering up my examples
 - Runs the examples, telling me if any fail
 - Gives an overall "pass"/"fail" so I know at a glance if we're all good
+
+### A test runner organizes examples
+
+So that makes sense why I don't feel the need for it on little hobby projects.
+
+At work we deal with bigger systems which need more examples which need better organizing
