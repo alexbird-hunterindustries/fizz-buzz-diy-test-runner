@@ -1,7 +1,8 @@
 import { fizzBuzz } from "./fizzBuzz.mjs";
 
 function test(expected, actual) {
-  console.log(`expected ${expected}, got ${actual}`);
+  const pass = expected === actual;
+  console.log(pass ? "✅" : "❌", `expected ${expected}, got ${actual}`);
 }
 
 test(1, fizzBuzz(1));
