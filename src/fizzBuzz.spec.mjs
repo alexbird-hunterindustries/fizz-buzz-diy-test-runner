@@ -22,7 +22,8 @@ function expect(actual) {
   };
 }
 
-function describe() {
+function describe(name, testDefinition) {
+  testDefinition();
 }
 
 describe("FizzBuzz", () => {
