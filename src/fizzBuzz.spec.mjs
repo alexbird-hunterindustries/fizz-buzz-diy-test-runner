@@ -10,6 +10,10 @@ function test(expected, actual) {
   console.log(pass ? "✅" : "❌", `expected ${expected}, got ${actual}`);
 }
 
+function expect(actual) {
+
+}
+
 expect(fizzBuzz(1)).toEqual(1);
 test(2, fizzBuzz(2));
 test("Fizz", fizzBuzz(3));
