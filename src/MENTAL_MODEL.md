@@ -9,3 +9,6 @@
 - Easy to write expected and actual
 - Tells me if it passes or fails
 
+## Experiment
+
+What if I introduce a bug and see how well my `console.log()`s point out the bug.
