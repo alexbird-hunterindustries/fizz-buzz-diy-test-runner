@@ -13,7 +13,7 @@ function test(expected, actual) {
 function expect(actual) {
   return {
     toEqual: (expected) => {
-
+      test(expected, actual);
     },
   };
 }
