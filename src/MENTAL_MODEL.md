@@ -10,3 +10,10 @@
 So that makes sense why I don't feel the need for it on little hobby projects.
 
 At work we deal with bigger systems which need more examples which need better organizing
+
+### A test runner summarizes failures
+
+I want to know if everything is OK
+
+If it's not all OK, I want to know what part is not OK
+
