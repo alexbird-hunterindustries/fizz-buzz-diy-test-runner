@@ -1,24 +1,11 @@
-## At Work
+## `console.log()`
 
-We use Jest for unit testing
+- It's helpful to write the expected value so I can compare expected with actual
+- `console.log()` was good enough for me to practice TDD for FizzBuzz
+- With a unit test runner it says "pass" or "fail", but here I had to check for myself
 
-## At Home
+## What would I like from a test runner
 
-`console.log()` is all I need to check my work
+- Easy to write expected and actual
+- Tells me if it passes or fails
 
-## My Mental Model
-
-I know the how and why of `console.log()` to check my work
-
-I know the syntax for Jest testing because we use it at work
-
-Jest feels like magic.
-
-`console.log()` feels good enough for me.
-
-## Goal
-
-I'd like to make the connection between my familiar `console.log()` technique and the
-familiar Jest syntax.
-
-I'd like Jest to feel less magic and more familiar.
