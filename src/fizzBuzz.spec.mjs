@@ -11,7 +11,11 @@ function test(expected, actual) {
 }
 
 function expect(actual) {
-  return {};
+  return {
+    toEqual: (expected) => {
+
+    },
+  };
 }
 
 expect(fizzBuzz(1)).toEqual(1);
