@@ -1,3 +1,3 @@
-export function fizzBuzz() {
-  return 1;
+export function fizzBuzz(number) {
+  return number;
 }
