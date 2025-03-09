@@ -3,7 +3,7 @@ export function fizzBuzz(number) {
   if (number % 3 === 0) {
     result += "Fizz";
   }
-  if (number % 5 === 1) {
+  if (number % 5 === 0) {
     result += "Buzz";
   }
   return result || number;
