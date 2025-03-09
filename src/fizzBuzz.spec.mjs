@@ -23,6 +23,7 @@ function describe(name, testDefinition) {
     };
   }
 
+  global.expect = expect;
   testDefinition();
   console.log(!failures ? "ALL PASS" : `${failures} FAILED`);
 }
