@@ -7,6 +7,8 @@
 ## What would I like from a test runner
 
 - Easy to write expected and actual
+    - in Jest it's really clear: `expect(x).toEqual(y)`
+    - Also there is no test infrastructure mixed with my examples
 - Tells me if it passes or fails
     - for each example
     - for the whole thing
