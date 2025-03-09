@@ -27,6 +27,9 @@ function describe(name, testDefinition) {
   console.log(!failures ? "ALL PASS" : `${failures} FAILED`);
 }
 
+// In Jest, 'expect' and 'describe' are not imported; they're globals
+// Maybe we should make 'expect' a global
+
 describe("FizzBuzz", () => {
   expect(fizzBuzz(1)).toEqual(1);
   expect(fizzBuzz(2)).toEqual(2);
