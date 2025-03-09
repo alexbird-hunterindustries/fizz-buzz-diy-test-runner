@@ -22,6 +22,9 @@ function expect(actual) {
   };
 }
 
+function describe() {
+}
+
 describe("FizzBuzz", () => {
   expect(fizzBuzz(1)).toEqual(1);
   expect(fizzBuzz(2)).toEqual(2);
