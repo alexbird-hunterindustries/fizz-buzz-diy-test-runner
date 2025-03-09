@@ -1,5 +1,9 @@
 import { fizzBuzz } from "./fizzBuzz.mjs";
 
+// We need a place to put the before and after test stuff
+// In Jest the tests are wrapped in a "describe"
+// Let's try that to see if we can hide away the test infra
+
 let failures = 0;
 
 function test(expected, actual) {
