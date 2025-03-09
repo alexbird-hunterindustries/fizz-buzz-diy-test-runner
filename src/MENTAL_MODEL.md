@@ -8,6 +8,8 @@
 
 - Easy to write expected and actual
 - Tells me if it passes or fails
+    - for each example
+    - for the whole thing
 
 ## Find the bug
 
