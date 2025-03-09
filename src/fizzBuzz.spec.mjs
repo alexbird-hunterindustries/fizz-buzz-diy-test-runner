@@ -5,10 +5,10 @@ function test(expected, actual) {
 }
 
 test(1, fizzBuzz(1));
-console.log("expected 2 => 2, got", fizzBuzz(2));
-console.log("expected 3 => Fizz, got", fizzBuzz(3));
-console.log("expected 4 => 4, got", fizzBuzz(4));
-console.log("expected 5 => Buzz, got", fizzBuzz(5));
-console.log("expected 6 => Fizz, got", fizzBuzz(6));
-console.log("expected 10 => Buzz, got", fizzBuzz(10));
-console.log("expected 15 => FizzBuzz, got", fizzBuzz(15));
+test(2, fizzBuzz(2));
+test("Fizz", fizzBuzz(3));
+test(4, fizzBuzz(4));
+test("Buzz", fizzBuzz(5));
+test("Fizz", fizzBuzz(6));
+test("Buzz", fizzBuzz(10));
+test("FizzBuzz", fizzBuzz(15));
