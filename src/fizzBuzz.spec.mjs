@@ -4,26 +4,27 @@ import { fizzBuzz } from "./fizzBuzz.mjs";
 // In Jest the tests are wrapped in a "describe"
 // Let's try that to see if we can hide away the test infra
 
-let failures = 0;
-
-function test(expected, actual) {
-  const pass = expected === actual;
-  if (!pass) {
-    failures += 1;
-  }
-  console.log(pass ? "✅" : "❌", `expected ${expected}, got ${actual}`);
-}
-
-function expect(actual) {
-  return {
-    toEqual: (expected) => {
-      test(expected, actual);
-    },
-  };
-}
-
 function describe(name, testDefinition) {
+  let failures = 0;
+
+  function test(expected, actual) {
+    const pass = expected === actual;
+    if (!pass) {
+      failures += 1;
+    }
+    console.log(pass ? "✅" : "❌", `expected ${expected}, got ${actual}`);
+  }
+
+  function expect(actual) {
+    return {
+      toEqual: (expected) => {
+        test(expected, actual);
+      },
+    };
+  }
+
   testDefinition();
+  console.log(!failures ? "ALL PASS" : `${failures} FAILED`);
 }
 
 describe("FizzBuzz", () => {
@@ -36,5 +37,3 @@ describe("FizzBuzz", () => {
   expect(fizzBuzz(10)).toEqual("Buzz");
   expect(fizzBuzz(15)).toEqual("FizzBuzz");
 });
-
-console.log(!failures ? "ALL PASS" : `${failures} FAILED`);
