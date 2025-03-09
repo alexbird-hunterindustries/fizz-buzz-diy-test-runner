@@ -1,20 +1,6 @@
-## `console.log()`
+## My bare minimum test runner
 
-- It's helpful to write the expected value so I can compare expected with actual
-- `console.log()` was good enough for me to practice TDD for FizzBuzz
-- With a unit test runner it says "pass" or "fail", but here I had to check for myself
-
-## What would I like from a test runner
-
-- Easy to write expected and actual
-    - in Jest it's really clear: `expect(x).toEqual(y)`
-    - Also there is no test infrastructure mixed with my examples
-- Tells me if it passes or fails
-    - for each example
-    - for the whole thing
-
-## Find the bug
-
-I have to check every example to see if it matches.
-
-I'd like each example to say "pass" or "fail"
+- Makes it easy to write a list of examples (expected and actual)
+- No test infra cluttering up my examples
+- Runs the examples, telling me if any fail
+- Gives an overall "pass"/"fail" so I know at a glance if we're all good
