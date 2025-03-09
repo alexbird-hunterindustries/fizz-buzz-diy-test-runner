@@ -25,6 +25,7 @@ function describe(name, testDefinition) {
 
   global.expect = expect;
   testDefinition();
+  delete global.expect;
   console.log(!failures ? "ALL PASS" : `${failures} FAILED`);
 }
 
