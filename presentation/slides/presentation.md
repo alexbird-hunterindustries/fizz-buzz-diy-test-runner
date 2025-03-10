@@ -322,11 +322,15 @@ You're trying to figure out how this expert thinks about the problem
 
 ---
 
+![bg right 90%](./images/fort-deer.jpg)
+
 # Play
 
 Sometimes the fastest way to solve a problem is to **goof off**
 
 ---
+
+![bg left 90%](./images/backyard-deer.jpg)
 
 # Play at Work
 
