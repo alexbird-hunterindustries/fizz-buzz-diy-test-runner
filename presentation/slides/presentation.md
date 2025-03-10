@@ -620,7 +620,7 @@ Take time to form a useful mental model
 
 ---
 
-# Those Who Support Leaders
+# Those Who Support Builders
 
 ##### How to put this into practice?
 
@@ -629,7 +629,7 @@ the work, even if it's the fastest way to finish** the work
 
 ---
 
-# Those Who Support Leaders
+# Those Who Support Builders
 
 ##### How to put this into practice?
 
