@@ -513,9 +513,9 @@ It's fake, but it's describing something that's real
 
 ---
 
-![bg right 90%](./images/snow-fort.jpg)
+# Let's Get Coding!
 
-## It's IDE time 💻
+![bg right 90%](./images/sledding.png)
 
 ---
 
