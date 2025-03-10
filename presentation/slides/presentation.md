@@ -61,12 +61,21 @@ problem**
 
 ---
 
-# Why Do We Guess
+# Why Do We Guess?
 
-- Often, because we're responsible
+- Often, because of a sense of duty and responsibility
 - We want to make good use of our employer's time
 - Learning is viewed as a self-indulgent activity
-- I'm here to work
+- "I'm here to work"
+
+---
+
+![bg right 90%](./images/two-deer.jpg)
+
+# Two Extremes
+
+- Kevin's surprise
+- Rob's textbook
 
 ---
 
