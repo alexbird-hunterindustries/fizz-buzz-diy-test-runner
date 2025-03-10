@@ -501,6 +501,100 @@ Learning Mental Models Through Play
 
 ---
 
+![bg right 90%](./images/snow-fort.jpg)
+
+#### A contrived example
+
+I'm pretending I'm not really familiar with unit testing
+
+This is a dramatic reenactment of real learning through play that I've done over the years
+
+It's fake, but it's describing something that's real
+
+---
+
+![bg right 90%](./images/snow-fort.jpg)
+
+## It's IDE time 💻
+
+---
+
+![bg right 90%](./images/snow-fort.jpg)
+
+### Reflect on the exercise
+
+We turn the play into learning by reflecting
+
+---
+
+## Adjusting our Mental Model
+
+- "Just" is a tool for summary
+    - "Just" invites us to overlook details
+    - Often not what we want
+    - But useful for summarizing learning
+
+---
+
+![bg right 90%](./images/topographic-map.png)
+
+#### Models overlook details
+
+- The map is not the territory
+    - but the territory doesn't fit in my pocket
+- Every model is wrong, some are useful
+
+<br/>
+<br/>
+<small><small>(see Map-territory relation as discussed by Alfred
+Korzybski)</small></small>
+
+---
+
+![bg right 90%](./images/topographic-map.png)
+
+##### Using "just" statements to improve your mental model
+
+Just statements are often technically incorrect
+
+But they fit in our brains easily (like a map in a pocket)
+
+We're aiming for **useful** and **less wrong than before**
+
+---
+
+![bg right 90%](./images/topographic-map.png)
+
+### "unit tests are just..."
+
+- A unit test suite is "just" a collection of examples
+- A unit test assertion is "just" a comparison and a print statement
+- A unit test runner is "just" a program that tells me if my code matches all my examples
+
+---
+
+## What's the use of those "just" statements?
+
+- It turns out `console.log()` and `expect().toEqual()` can do similar things
+    - so `expect().toEqual()` **doesn't feel so magical**
+- **New insight** for how to write tests: "I'm writing a collection of examples"
+- **New appreciation** for unit test framework: a single "yes" or "no" to tell me if my
+  code is OK
+    - instead of reading all the `console.log()`s
+
+---
+
+## Recap
+
+- Often **we skip learning** because of our **sense of professionalism**:
+    - "I need to stay on task"
+- But as a professional, **it's more important to do good work than to look good**
+- It's a mark of professionalism to say **"I don't know; I'm going to take some time to
+  learn"**
+- And as we learn, focus on **learning mental models** rather than rules of thumb
+
+---
+
 ![bg right 90%](./images/alexbird-2.jpg)
 
 #### Thanks For Having Me!
