@@ -595,6 +595,49 @@ We're aiming for **useful** and **less wrong than before**
 
 ---
 
+# Builders
+
+##### How to put this into practice?
+
+You don't need permission to **take the fastest route**  
+often learning is the fastest route.
+
+---
+
+# Builders
+
+##### How to put this into practice?
+
+Take time to form a useful mental model
+
+- skim read the docs
+- ask for advice
+- play in a sandbox
+
+---
+
+# Those Who Support Leaders
+
+##### How to put this into practice?
+
+Builders seem to think they **need permission to stop
+the work, even if it's the fastest way to finish** the work
+
+---
+
+# Those Who Support Leaders
+
+##### How to put this into practice?
+
+If you don't **expressly state that you support** learning on the job, your **builders may
+imagine** that they must not learn at work
+
+- **Coach them** to take the time they need **to become experts**
+- When they do take time to learn, **encourage them**
+    - which **sets the tone** on the team that learning is a responsible thing to do
+
+---
+
 ![bg right 90%](./images/alexbird-2.jpg)
 
 #### Thanks For Having Me!
