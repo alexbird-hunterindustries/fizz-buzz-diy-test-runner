@@ -79,6 +79,16 @@ problem**
 
 ---
 
+# Learning Goal
+
+I'm hoping to convince you to feel comfortable saying:
+
+"I am going to take the time I need to learn what I need to know to do my job well"
+
+(And to give you some more tools for doing that type of learning.)
+
+---
+
 ## Love the problem
 
 ![bg right 90%](./images/dump-buck.jpg)
