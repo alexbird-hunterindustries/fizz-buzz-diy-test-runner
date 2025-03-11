@@ -371,7 +371,6 @@ Won't I get in trouble if I goof off?
 - If I don't know how to do the thing, I'll have to **make many guesses**
 - Use the time I would have been guessing to **learn (play) instead**
 - Then **quickly solve the problem** (since I now know how to do it)
--
 
 ---
 
@@ -381,8 +380,8 @@ Short answer: I don't say "play"
 
 It describes the technique, but it's not part of business vocabulary
 
-There are more precise descriptions for what we're doing that are both **true** and *
-*professional**
+There are more precise descriptions for what we're doing that are both **true** and
+**professional**
 
 ---
 
@@ -606,6 +605,9 @@ We're aiming for **useful** and **less wrong than before**
 You don't need permission to **take the fastest route**  
 often learning is the fastest route.
 
+If there is pressure not to stop and learn, practice **reporting the business value of
+learning**
+
 ---
 
 # Builders
@@ -624,8 +626,8 @@ Take time to form a useful mental model
 
 ##### How to put this into practice?
 
-Builders seem to think they **need permission to stop
-the work, even if it's the fastest way to finish** the work
+Some builders feel they **need permission to stop
+the work** for any reason, even if the **fastest way to finish is to stop and learn**
 
 ---
 
@@ -633,12 +635,26 @@ the work, even if it's the fastest way to finish** the work
 
 ##### How to put this into practice?
 
-If you don't **expressly state that you support** learning on the job, your **builders may
-imagine** that they must not learn at work
+If you want to keep your builders from **imagining they must not learn at work**,
 
-- **Coach them** to take the time they need **to become experts**
-- When they do take time to learn, **encourage them**
-    - which **sets the tone** on the team that learning is a responsible thing to do
+**expressly state that you support** learning on the job
+
+---
+
+# Those Who Support Builders
+
+##### How to put this into practice?
+
+**Set the tone** on the team by
+
+- **coaching** them to take time to learn
+- **encouraging** them when they do
+
+---
+
+![bg left 90%](./images/two-deer.jpg)
+
+Let's have fun and build well✌🏻
 
 ---
 
