@@ -113,12 +113,16 @@ problem**
 
 ---
 
+### The risk of cheat sheets
+
+- map vs turning directions
+
+---
+
 ### Learn Mental Models
 
 ![bg left 90%](./images/fox.jpg)
 
-- map vs turning directions
-- latin vs memorized medical words
 - story of the engineer with the hammer
 
 ---
@@ -195,13 +199,6 @@ The goal is to get a **rough mental model**
 ---
 
 <!-- backgroundImage: url('https://marp.app/assets/hero-background.svg') -->
-
-- When we read the page, we didn't know that the extra paragraphs would be useful
-- When we faced the problems, they reminded us of the docs
-- We consulted the docs and had a clear idea of how to fix
-
----
-
 <!-- progress slide -->
 
 ## How Do You Become An Expert
@@ -287,6 +284,16 @@ The goal is to get a **rough mental model**
 
 ---
 
+## Goal: What's Their Mental Model?
+
+![bg left 90%](./images/buck-on-lawn.jpg)
+
+You're trying to figure out how this expert thinks about the problem
+
+**They have a mental map** of the territory, and you're trying to **draw it out of them**
+
+---
+
 #### Prerequisite: Safe To Ask
 
 ![bg left 90%](./images/buck-on-lawn.jpg)
@@ -295,16 +302,6 @@ For this to work, you have to be in an environment where it is **safe to admit y
 understand**.
 
 If you don't have that at work, consider asking a friend from outside your company
-
----
-
-## Goal: What's Their Mental Model?
-
-![bg left 90%](./images/buck-on-lawn.jpg)
-
-You're trying to figure out how this expert thinks about the problem
-
-**They have a mental map** of the territory, and you're trying to **draw it out of them**
 
 ---
 
@@ -337,6 +334,10 @@ You're trying to figure out how this expert thinks about the problem
 
 Sometimes the fastest way to solve a problem is to **goof off**
 
+That means we're busy without producing something useful
+
+The useful part is what we learn
+
 ---
 
 ![bg left 90%](./images/backyard-deer.jpg)
@@ -349,31 +350,29 @@ Sometimes the fastest way to solve a problem is to **goof off**
 
 ---
 
-# Accounting for Play at Work
+# The Optics of Play at Work
 
-- If you don't know how to do the thing, you'll **make many guesses**
-- Use the time you would have been guessing; **learn (play) instead**
-- Then **quickly solve the problem** (since you now know how to do it)
+Won't I get in trouble if I goof off?
 
 ---
 
-## Prerequisite: Measured on Outcome
+# How I Think About Play at Work
 
-In some work places, your performance evaluation depends on looking busy
-
-In those environments, learning through play may be unwise
-
-Even if it is more efficient than guessing
+- If I don't know how to do the thing, I'll have to **make many guesses**
+- Use the time I would have been guessing to **learn (play) instead**
+- Then **quickly solve the problem** (since I now know how to do it)
+-
 
 ---
 
-## Prerequisite: Measured on Outcome
+# How I Talk About Play at Work
 
-If you're in a "look busy" workplace, consider:
+Short answer: I don't say "play"
 
-- learning through reading, which is often considered more "professional" than play
-- practice describing your learning through play in business terms that make it sound
-  professional
+It describes the technique, but it's not part of business vocabulary
+
+There are more precise descriptions for what we're doing that are both **true** and *
+*professional**
 
 ---
 
@@ -411,21 +410,18 @@ If you're in a "look busy" workplace, consider:
 
 ---
 
-# Making a Business Justification for Learning
+# Reporting
 
-1. Identify the business driver that relates to learning
-2. Report your learning in the context of that business driver
+Even if learning is more efficient, what do I tell my boss and stakeholders?
+
+They want to see progress; what if they see me studying? Won't it look bad?
 
 ---
 
 # Making a Business Justification for Learning
 
-- The less we know, the higher the variability/uncertainty
-    - Learning can give us lower risk, more consistent delivery
-    - Sometimes, we're so precariously positioned that we must take high risk. Guess,
-      don't learn
-- Learning now makes us faster later
-    - An investment in our future delivery
+1. Identify the business driver that relates to learning
+2. Report your learning in the context of that business driver
 
 ---
 
@@ -439,16 +435,11 @@ reduce variability**.
 
 ---
 
-# For short term speed, don't learn
+# Sometimes, leaders want risk
 
-### (and increase risk)
+There are business situations where we need to take risks
 
-Sometimes, a business position requires haste at all costs
-
-Leaders may request that you go as fast as possible, no matter the risk
-
-Take the risk, skip the learning. Either your guess works and you win, or you pivot and
-try something else
+Don't assume your leader wants to reduce risk
 
 ---
 
@@ -468,16 +459,6 @@ learn
 
 If that's the case, report your learning time as the most efficient way to complete your
 current task
-
----
-
-# Learning for your career
-
-Maybe, there is no business justification for learning. The risk, variability, and pace
-are all acceptable to your employer.
-
-If you want to learn but there is no business justification for it, then maybe you're
-looking at evening/weekend learning time.
 
 ---
 
